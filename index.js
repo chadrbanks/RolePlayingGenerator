@@ -30,6 +30,32 @@ switch (args[0]) {
             console.log(rows[r(rows.length) - 1] + '.');
             break;
         }
+    case 'art':
+        {
+            let val = 10;
+            for (var x in args) {
+                if (args[x].substring(0, 6) === '--val=') {
+                    val = args[x].substring(6);
+                }
+                else if (args[x].substring(0, 8) === '--value=') {
+                    val = args[x].substring(8);
+                }
+            }
+
+            let path = 'tables/art/art_' + val + 'gp.csv';
+            if (fs.existsSync(path)) {
+                var text = fs.readFileSync(path, 'utf8');
+                let rows = text.split("\n");
+
+                console.log(rows[r(rows.length)]);
+            }
+            else
+            {
+                console.log( 'No art table exists for this value, try 10gp. `rpg art --val=25' );
+            }
+
+            break;
+        }
     case 'building':
         {
             var text = fs.readFileSync('tables/building.csv', 'utf8');
@@ -49,7 +75,7 @@ switch (args[0]) {
                     num_or_len = args[x].substring(7) - 1;
                 }
                 else if (args[x].substring(0, 7) === '--slash' || args[x].substring(0, 10) === '--slashing') {
-                    var text = fs.readFileSync('tables/crit_slashing.csv', 'utf8');
+                    var text = fs.readFileSync('tables/crits/crit_slashing.csv', 'utf8');
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -57,7 +83,7 @@ switch (args[0]) {
                     found = true;
                 }
                 else if (args[x].substring(0, 7) === '--blunt') {
-                    var text = fs.readFileSync('tables/crit_blunt.csv', 'utf8');
+                    var text = fs.readFileSync('tables/crits/crit_blunt.csv', 'utf8');
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -65,7 +91,7 @@ switch (args[0]) {
                     found = true;
                 }
                 else if (args[x].substring(0, 7) === '--pierce' || args[x].substring(0, 10) === '--piercing') {
-                    var text = fs.readFileSync('tables/crit_pierce.csv', 'utf8');
+                    var text = fs.readFileSync('tables/crits/crit_pierce.csv', 'utf8');
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -73,7 +99,7 @@ switch (args[0]) {
                     found = true;
                 }
                 else if (args[x].substring(0, 7) === '--spell') {
-                    var text = fs.readFileSync('tables/crit_spell.csv', 'utf8');
+                    var text = fs.readFileSync('tables/crits/crit_spell.csv', 'utf8');
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -81,7 +107,7 @@ switch (args[0]) {
                     found = true;
                 }
                 else if (args[x].substring(0, 7) === '--range' || args[x].substring(0, 8) === '--ranged') {
-                    var text = fs.readFileSync('tables/crit_range.csv', 'utf8');
+                    var text = fs.readFileSync('tables/crits/crit_range.csv', 'utf8');
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -108,7 +134,7 @@ switch (args[0]) {
                     num_or_len = args[x].substring(7) - 1;
                 }
                 else if (args[x].substring(0, 7) === '--melee') {
-                    var text = fs.readFileSync('tables/fumble_melee.csv', 'utf8');
+                    var text = fs.readFileSync('tables/crits/fumble_melee.csv', 'utf8');
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -116,7 +142,7 @@ switch (args[0]) {
                     found = true;
                 }
                 else if (args[x].substring(0, 7) === '--spell') {
-                    var text = fs.readFileSync('tables/fumble_spell.csv', 'utf8');
+                    var text = fs.readFileSync('tables/crits/fumble_spell.csv', 'utf8');
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -124,7 +150,7 @@ switch (args[0]) {
                     found = true;
                 }
                 else if (args[x].substring(0, 7) === '--range' || args[x].substring(0, 8) === '--ranged') {
-                    var text = fs.readFileSync('tables/fumble_range.csv', 'utf8');
+                    var text = fs.readFileSync('tables/crits/fumble_range.csv', 'utf8');
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -144,18 +170,26 @@ switch (args[0]) {
         {
             let val = 10;
             for (var x in args) {
-                if (args[x].substring(0, 5) === '--val') {
-                    val = args[x].substring(5);
+                if (args[x].substring(0, 6) === '--val=') {
+                    val = args[x].substring(6);
                 }
-                else if (args[x].substring(0, 7) === '--value') {
-                    val = args[x].substring(7);
+                else if (args[x].substring(0, 8) === '--value=') {
+                    val = args[x].substring(8);
                 }
             }
 
-            var text = fs.readFileSync('tables/gems_' + val + 'gp.csv', 'utf8');
-            let rows = text.split("\n");
+            let path = 'tables/gems/gems_' + val + 'gp.csv';
+            if (fs.existsSync(path)) {
+                var text = fs.readFileSync(path, 'utf8');
+                let rows = text.split("\n");
 
-            console.log(rows[r(rows.length)]);
+                console.log(rows[r(rows.length)]);
+            }
+            else
+            {
+                console.log( 'No gem table exists for this value, try 10gp. `rpg gem --val=10' );
+            }
+
             break;
         }
     case 'guild':
@@ -186,63 +220,51 @@ switch (args[0]) {
             }
 
             let coins, d10 = r(10);
-            if( val < 5 )
-            {
-                if( d10 < 4 )
-                {
+            if (val < 5) {
+                if (d10 < 4) {
                     coins = r(6) + r(6) + r(6) + r(6) + r(6);
-                    console.log( coins + 'cp' );
+                    console.log(coins + 'cp');
                 }
-                else if( d10 < 7 )
-                {
+                else if (d10 < 7) {
                     coins = r(6) + r(6) + r(6) + r(6);
-                    console.log( coins + 'sp' );
+                    console.log(coins + 'sp');
                 }
-                else if( d10 < 8 )
-                {
+                else if (d10 < 8) {
                     coins = r(6) + r(6) + r(6);
-                    console.log( (coins/2) + 'gp (' +coins+'ep)' );
+                    console.log((coins / 2) + 'gp (' + coins + 'ep)');
                 }
-                else if( d10 < 10 )
-                {
+                else if (d10 < 10) {
                     coins = r(6) + r(6) + r(6);
-                    console.log( coins + 'gp' );
+                    console.log(coins + 'gp');
                 }
-                else if( d10 == 10 )
-                {
+                else if (d10 == 10) {
                     coins = r(6);
-                    console.log( coins + 'pp' );
+                    console.log(coins + 'pp');
                 }
             }
-            else if( val < 11 )
-            {
-                if( d10 < 4 )
-                {
-                    coins = ( r(6) + r(6) + r(6) + r(6) ) * 100 + ( r(6) * 500 );
-                    console.log( coins + 'cp' );
+            else if (val < 11) {
+                if (d10 < 4) {
+                    coins = (r(6) + r(6) + r(6) + r(6)) * 100 + (r(6) * 500);
+                    console.log(coins + 'cp');
                 }
-                else if( d10 < 7 )
-                {
+                else if (d10 < 7) {
                     coins = (r(6) + r(6) + r(6) + r(6) + r(6) + r(6)) * 10 + ((r(6) + r(6)) * 100);
-                    console.log( coins + 'sp' );
+                    console.log(coins + 'sp');
                 }
-                else if( d10 < 8 )
-                {
+                else if (d10 < 8) {
                     coins = (r(6) + r(6) + r(6) + r(6) + r(6)) * 20;
-                    console.log( (coins/2) + 'gp (' +coins+'ep)' );
+                    console.log((coins / 2) + 'gp (' + coins + 'ep)');
                 }
-                else if( d10 < 10 )
-                {
+                else if (d10 < 10) {
                     coins = (r(6) + r(6) + r(6) + r(6)) * 10;
-                    console.log( coins + 'gp' );
+                    console.log(coins + 'gp');
                 }
-                else if( d10 == 10 )
-                {
+                else if (d10 == 10) {
                     coins = r(6) + r(6) + r(6) + r(6) + r(6);
-                    console.log( coins + 'pp' );
+                    console.log(coins + 'pp');
                 }
             }
-            
+
             break;
         }
     case 'npc':
