@@ -94,7 +94,6 @@ switch (args[0]) {
             if (!found) {
                 console.log('Critical type not specified, please add --slash, --blunt, --pirce, --ranged, or --spell to specify.');
             }
-            //console.log('http://www.angelfire.com/dragon3/vinifera/critical_hit_table_2e.pdf');
             break;
         }
     case 'fumble':
@@ -172,6 +171,78 @@ switch (args[0]) {
                 console.log("Jewelers guild");
             else
                 console.log("Musicians guild");
+            break;
+        }
+    case 'loot':
+        {
+            let val = 1;
+            for (var x in args) {
+                if (args[x].substring(0, 6) === '--val=') {
+                    val = args[x].substring(6);
+                }
+                else if (args[x].substring(0, 6) === '--lvl=') {
+                    val = args[x].substring(6);
+                }
+            }
+
+            let coins, d10 = r(10);
+            if( val < 5 )
+            {
+                if( d10 < 4 )
+                {
+                    coins = r(6) + r(6) + r(6) + r(6) + r(6);
+                    console.log( coins + 'cp' );
+                }
+                else if( d10 < 7 )
+                {
+                    coins = r(6) + r(6) + r(6) + r(6);
+                    console.log( coins + 'sp' );
+                }
+                else if( d10 < 8 )
+                {
+                    coins = r(6) + r(6) + r(6);
+                    console.log( (coins/2) + 'gp (' +coins+'ep)' );
+                }
+                else if( d10 < 10 )
+                {
+                    coins = r(6) + r(6) + r(6);
+                    console.log( coins + 'gp' );
+                }
+                else if( d10 == 10 )
+                {
+                    coins = r(6);
+                    console.log( coins + 'pp' );
+                }
+            }
+            else if( val < 11 )
+            {
+                if( d10 < 4 )
+                {
+                    coins = ( r(6) + r(6) + r(6) + r(6) ) * 100 + ( r(6) * 500 );
+                    console.log( coins + 'cp' );
+                }
+                else if( d10 < 7 )
+                {
+                    coins = (r(6) + r(6) + r(6) + r(6) + r(6) + r(6)) * 10 + ((r(6) + r(6)) * 100);
+                    console.log( coins + 'sp' );
+                }
+                else if( d10 < 8 )
+                {
+                    coins = (r(6) + r(6) + r(6) + r(6) + r(6)) * 20;
+                    console.log( (coins/2) + 'gp (' +coins+'ep)' );
+                }
+                else if( d10 < 10 )
+                {
+                    coins = (r(6) + r(6) + r(6) + r(6)) * 10;
+                    console.log( coins + 'gp' );
+                }
+                else if( d10 == 10 )
+                {
+                    coins = r(6) + r(6) + r(6) + r(6) + r(6);
+                    console.log( coins + 'pp' );
+                }
+            }
+            
             break;
         }
     case 'npc':
