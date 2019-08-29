@@ -1,11 +1,13 @@
 # RolePlayingGenerator
 RPG is used to generate content for table top role playing games.
 
-# Usage
-I add this alias to my bash or zsh config.
-alias rpg="node ~/Repos/RolePlayingGenerator/index.js"
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
-Once you have the index.js file mapped to rpg, you can run commands like this.
+# Usage
+I add thiscfollowing alias to my bash or zsh config.
+>alias rpg="node ~/Repos/RolePlayingGenerator/index.js"
+
+Once you have the index.js file mapped to rpg, you can run commands like these below.
 
 >rpg gem
 
