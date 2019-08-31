@@ -49,9 +49,8 @@ switch (args[0]) {
 
                 console.log(rows[r(rows.length)]);
             }
-            else
-            {
-                console.log( 'No art table exists for this value, try 10gp. `rpg art --val=25' );
+            else {
+                console.log('No art table exists for this value, try 10gp. `rpg art --val=25');
             }
 
             break;
@@ -61,6 +60,63 @@ switch (args[0]) {
             var text = fs.readFileSync('tables/building.csv', 'utf8');
             let rows = text.split("\r\n");
             console.log('You find a ' + rows[r(rows.length) - 1] + '.');
+            break;
+        }
+    case 'coins':
+        {
+            let val = 1;
+            for (var x in args) {
+                if (args[x].substring(0, 6) === '--lvl=') {
+                    val = args[x].substring(6);
+                }
+            }
+
+            let coins, d10 = r(10);
+            if (val < 5) {
+                if (d10 < 4) {
+                    coins = r(6) + r(6) + r(6) + r(6) + r(6);
+                    console.log(coins + 'cp');
+                }
+                else if (d10 < 7) {
+                    coins = r(6) + r(6) + r(6) + r(6);
+                    console.log(coins + 'sp');
+                }
+                else if (d10 < 8) {
+                    coins = r(6) + r(6) + r(6);
+                    console.log((coins / 2) + 'gp (' + coins + 'ep)');
+                }
+                else if (d10 < 10) {
+                    coins = r(6) + r(6) + r(6);
+                    console.log(coins + 'gp');
+                }
+                else if (d10 == 10) {
+                    coins = r(6);
+                    console.log(coins + 'pp');
+                }
+            }
+            else if (val < 11) {
+                if (d10 < 4) {
+                    coins = (r(6) + r(6) + r(6) + r(6)) * 100 + (r(6) * 500);
+                    console.log(coins + 'cp');
+                }
+                else if (d10 < 7) {
+                    coins = (r(6) + r(6) + r(6) + r(6) + r(6) + r(6)) * 10 + ((r(6) + r(6)) * 100);
+                    console.log(coins + 'sp');
+                }
+                else if (d10 < 8) {
+                    coins = (r(6) + r(6) + r(6) + r(6) + r(6)) * 20;
+                    console.log((coins / 2) + 'gp (' + coins + 'ep)');
+                }
+                else if (d10 < 10) {
+                    coins = (r(6) + r(6) + r(6) + r(6)) * 10;
+                    console.log(coins + 'gp');
+                }
+                else if (d10 == 10) {
+                    coins = r(6) + r(6) + r(6) + r(6) + r(6);
+                    console.log(coins + 'pp');
+                }
+            }
+
             break;
         }
     case 'crit':
@@ -185,9 +241,8 @@ switch (args[0]) {
 
                 console.log(rows[r(rows.length)]);
             }
-            else
-            {
-                console.log( 'No gem table exists for this value, try 10gp. `rpg gem --val=10' );
+            else {
+                console.log('No gem table exists for this value, try 10gp. `rpg gem --val=10');
             }
 
             break;
@@ -209,62 +264,12 @@ switch (args[0]) {
         }
     case 'loot':
         {
-            let val = 1;
             for (var x in args) {
-                if (args[x].substring(0, 6) === '--val=') {
-                    val = args[x].substring(6);
-                }
-                else if (args[x].substring(0, 6) === '--lvl=') {
+                if (args[x].substring(0, 6) === '--lvl=') {
                     val = args[x].substring(6);
                 }
             }
-
-            let coins, d10 = r(10);
-            if (val < 5) {
-                if (d10 < 4) {
-                    coins = r(6) + r(6) + r(6) + r(6) + r(6);
-                    console.log(coins + 'cp');
-                }
-                else if (d10 < 7) {
-                    coins = r(6) + r(6) + r(6) + r(6);
-                    console.log(coins + 'sp');
-                }
-                else if (d10 < 8) {
-                    coins = r(6) + r(6) + r(6);
-                    console.log((coins / 2) + 'gp (' + coins + 'ep)');
-                }
-                else if (d10 < 10) {
-                    coins = r(6) + r(6) + r(6);
-                    console.log(coins + 'gp');
-                }
-                else if (d10 == 10) {
-                    coins = r(6);
-                    console.log(coins + 'pp');
-                }
-            }
-            else if (val < 11) {
-                if (d10 < 4) {
-                    coins = (r(6) + r(6) + r(6) + r(6)) * 100 + (r(6) * 500);
-                    console.log(coins + 'cp');
-                }
-                else if (d10 < 7) {
-                    coins = (r(6) + r(6) + r(6) + r(6) + r(6) + r(6)) * 10 + ((r(6) + r(6)) * 100);
-                    console.log(coins + 'sp');
-                }
-                else if (d10 < 8) {
-                    coins = (r(6) + r(6) + r(6) + r(6) + r(6)) * 20;
-                    console.log((coins / 2) + 'gp (' + coins + 'ep)');
-                }
-                else if (d10 < 10) {
-                    coins = (r(6) + r(6) + r(6) + r(6)) * 10;
-                    console.log(coins + 'gp');
-                }
-                else if (d10 == 10) {
-                    coins = r(6) + r(6) + r(6) + r(6) + r(6);
-                    console.log(coins + 'pp');
-                }
-            }
-
+            
             break;
         }
     case 'npc':
