@@ -25,7 +25,7 @@ switch (args[0]) {
         }
     case 'ability':
         {
-            var text = fs.readFileSync('tables/ability.csv', 'utf8');
+            var text = fs.readFileSync( __dirname + '/tables/ability.csv', 'utf8' );
             let rows = text.split("\n");
             console.log(rows[r(rows.length) - 1] + '.');
             break;
@@ -42,7 +42,7 @@ switch (args[0]) {
                 }
             }
 
-            let path = 'tables/art/art_' + val + 'gp.csv';
+            let path = __dirname + '/tables/art/art_' + val + 'gp.csv';
             if (fs.existsSync(path)) {
                 var text = fs.readFileSync(path, 'utf8');
                 let rows = text.split("\n");
@@ -57,7 +57,7 @@ switch (args[0]) {
         }
     case 'building':
         {
-            var text = fs.readFileSync('tables/building.csv', 'utf8');
+            var text = fs.readFileSync( __dirname + '/tables/building.csv', 'utf8' );
             let rows = text.split("\r\n");
             console.log('You find a ' + rows[r(rows.length) - 1] + '.');
             break;
@@ -131,7 +131,7 @@ switch (args[0]) {
                     num_or_len = args[x].substring(7) - 1;
                 }
                 else if (args[x].substring(0, 7) === '--slash' || args[x].substring(0, 10) === '--slashing') {
-                    var text = fs.readFileSync('tables/crits/crit_slashing.csv', 'utf8');
+                    var text = fs.readFileSync( __dirname + '/tables/crits/crit_slashing.csv', 'utf8' );
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -139,7 +139,7 @@ switch (args[0]) {
                     found = true;
                 }
                 else if (args[x].substring(0, 7) === '--blunt') {
-                    var text = fs.readFileSync('tables/crits/crit_blunt.csv', 'utf8');
+                    var text = fs.readFileSync( __dirname + '/tables/crits/crit_blunt.csv', 'utf8' );
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -147,7 +147,7 @@ switch (args[0]) {
                     found = true;
                 }
                 else if (args[x].substring(0, 7) === '--pierce' || args[x].substring(0, 10) === '--piercing') {
-                    var text = fs.readFileSync('tables/crits/crit_pierce.csv', 'utf8');
+                    var text = fs.readFileSync( __dirname + '/tables/crits/crit_pierce.csv', 'utf8' );
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -155,7 +155,7 @@ switch (args[0]) {
                     found = true;
                 }
                 else if (args[x].substring(0, 7) === '--spell') {
-                    var text = fs.readFileSync('tables/crits/crit_spell.csv', 'utf8');
+                    var text = fs.readFileSync( __dirname + '/tables/crits/crit_spell.csv', 'utf8' );
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -163,7 +163,7 @@ switch (args[0]) {
                     found = true;
                 }
                 else if (args[x].substring(0, 7) === '--range' || args[x].substring(0, 8) === '--ranged') {
-                    var text = fs.readFileSync('tables/crits/crit_range.csv', 'utf8');
+                    var text = fs.readFileSync( __dirname + '/tables/crits/crit_range.csv', 'utf8' );
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -198,7 +198,7 @@ switch (args[0]) {
                     found = true;
                 }
                 else if (args[x].substring(0, 7) === '--spell') {
-                    var text = fs.readFileSync('tables/crits/fumble_spell.csv', 'utf8');
+                    var text = fs.readFileSync( __dirname + '/tables/crits/fumble_spell.csv', 'utf8' );
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -206,7 +206,7 @@ switch (args[0]) {
                     found = true;
                 }
                 else if (args[x].substring(0, 7) === '--range' || args[x].substring(0, 8) === '--ranged') {
-                    var text = fs.readFileSync('tables/crits/fumble_range.csv', 'utf8');
+                    var text = fs.readFileSync( __dirname + '/tables/crits/fumble_range.csv', 'utf8' );
                     let rows = text.split("\n");
                     if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 
@@ -234,7 +234,7 @@ switch (args[0]) {
                 }
             }
 
-            let path = 'tables/gems/gems_' + val + 'gp.csv';
+            let path = __dirname + '/tables/gems/gems_' + val + 'gp.csv';
             if (fs.existsSync(path)) {
                 var text = fs.readFileSync(path, 'utf8');
                 let rows = text.split("\n");
