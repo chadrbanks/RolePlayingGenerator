@@ -19,7 +19,7 @@ module.exports = {
             var text = fs.readFileSync(path, 'utf8');
             let rows = text.split("\n");
 
-            console.log( rows[ r(rows.length) ] );
+            console.log( rows[ r(rows.length) - 1 ] );
         }
         else {
             console.log('No art table exists for this value, try 10gp. `rpg art --val=25');
