@@ -26,7 +26,7 @@ rpg creature                                # A random creature.
 rpg creature --count=5                      # 5 random creatures.
 rpg creature --challenge=4                  # A random creature with a challenge rating of 4.
 rpg creature --challenge=5 --count=5        # 5 random creatures with a challenge rating of 5.
-rpg creature --min=20 --max=25              # A random creature with a challenge rating between 20 and 25.
+rpg creature --min=20 --max=25              # A random creature with a CR between 20 and 25.
 rpg creature --count=10 --min=10 --max=12   # Generate random 10 creatures with CRs between 10 and 12.
 # Example outputs:
 #                   Chimera Large   Monstrosity             CE      6       2300    mm 39.
@@ -111,7 +111,7 @@ rpg fumble --melee
 #                   Twisted ankle, save CON DC20 or 1/2 movement until long rest.
 #                   Single eye obstruction, -2 to hit until cleaned.
 #                   Standard miss.
-#                   Slip Up. You lose your footing. Roll Dexterity / Acrobatics (DC15) or fall prone. Your turn has ended.
+#                   Slip Up. You lose your footing. Roll Dexterity / Acrobatics (DC15) or fall prone.
 #                   Spell is delayed 1d4 rounds – after which effect happens.
 #                   Caster is blinded for 1d4 rounds.
 #                   A random party member is target of spell instead.
@@ -130,4 +130,10 @@ rpg gem --val=1000
 #                   Lapis Lazuli
 #                   Emerald
 #                   Malachite
+```
+
+```bash
+# Trap Command
+# Random trap, more than likely OP.
+rpg trap
 ```

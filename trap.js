@@ -5,6 +5,8 @@ module.exports = {
 
     exec: function (args) {
         
-        console.log('Trap!');
+        var text = fs.readFileSync(__dirname + '/tables/traps.csv', 'utf8');
+        let rows = text.split("\n");
+        console.log( rows[ r(rows.length) - 1 ] + '.' );
     }
 };
