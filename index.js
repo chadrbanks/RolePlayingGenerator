@@ -37,6 +37,13 @@ switch (args[0]) {
             art.exec(args);
             break;
         }
+    case 'boss':
+        {
+            console.log( 'Generating boss....' );
+            const creature = require('./creature');
+            creature.exec( ['--min=25','--max=50'] );
+            break;
+        }
     case 'building':
         {
             // This is the odd one.
