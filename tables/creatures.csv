@@ -1,0 +1,672 @@
+Frog	Tiny	Beast		Unaligned	0	0	mm 322
+Sea Horse	Tiny	Beast		Unaligned	0	0	mm 337
+Awakened Shrub	Small	Plant		Unaligned	0	10	mm 317
+Baboon	Small	Beast		Unaligned	0	10	mm 318
+Badger	Tiny	Beast		Unaligned	0	10	mm 318
+Bat	Tiny	Beast		Unaligned	0	10	mm 318
+Cat	Tiny	Beast		Unaligned	0	10	mm 320
+Commoner	Medium	Humanoid		Any	0	10	mm 344
+Crab	Tiny	Beast		Unaligned	0	10	mm 320
+Cranium Rat	Tiny	Beast		LE	0	10	vgm 133
+Crawling Claw	Tiny	Undead		NE	0	10	mm 44
+Deer	Medium	Beast		Unaligned	0	10	mm 321
+Eagle	Small	Beast		Unaligned	0	10	mm 322
+Giant Fire Beetle	Small	Beast		Unaligned	0	10	mm 325
+Goat	Medium	Beast		Unaligned	0	10	mm 330
+Hawk	Tiny	Beast		Unaligned	0	10	mm 330
+Homunculus	Tiny	Construct		N	0	10	mm 188
+Hyena	Medium	Beast		Unaligned	0	10	mm 331
+Jackal	Small	Beast		Unaligned	0	10	mm 331
+Lemure	Medium	Fiend	devil	LE	0	10	mm 76
+Lizard	Tiny	Beast		Unaligned	0	10	mm 332
+Myconid Sprout	Small	Plant		LN	0	10	mm 230
+Octopus	Small	Beast		Unaligned	0	10	mm 333
+Owl	Tiny	Beast		Unaligned	0	10	mm 333
+Quipper	Tiny	Beast		Unaligned	0	10	mm 335
+Rat	Tiny	Beast		Unaligned	0	10	mm 335
+Raven	Tiny	Beast		Unaligned	0	10	mm 335
+Scorpion	Tiny	Beast		Unaligned	0	10	mm 337
+Shrieker	Medium	Plant		Unaligned	0	10	mm 138
+Spider	Tiny	Beast		Unaligned	0	10	mm 337
+Vulture	Medium	Beast		Unaligned	0	10	mm 339
+Weasel	Tiny	Beast		Unaligned	0	10	mm 340
+Bandit	Medium	Humanoid		Any non-lawful	1/8	25	mm 343
+Blood Hawk	Small	Beast		Unaligned	1/8	25	mm 319
+Boggle	Small	Fey		CN	1/8	25	vgm 128
+Camel	Large	Beast		Unaligned	1/8	25	mm 320
+Cultist	Medium	Humanoid		Any non-good	1/8	25	mm 345
+Dolphin	Medium	Beast		Unaligned	1/8	25	vgm 208
+Flumph	Small	Aberration		LG	1/8	25	mm 135
+Flying Snake	Tiny	Beast		Unaligned	1/8	25	mm 322
+Giant Crab	Medium	Beast		Unaligned	1/8	25	mm 324
+Giant Rat	Small	Beast		Unaligned	1/8	25	mm 327
+Giant Weasel	Medium	Beast		Unaligned	1/8	25	mm 329
+Guard	Medium	Humanoid			1/8	25	mm 347
+Kobold	Small	Humanoid	kobold	LE	1/8	25	mm 195
+Manes	Small	Fiend	demon	CE	1/8	25	mm 60
+Mastiff	Medium	Beast		Unaligned	1/8	25	mm 332
+Merfolk	Medium	Humanoid	merfolk	N	1/8	25	mm 218
+Monodrone	Medium	Construct		LN	1/8	25	mm 224
+Mule	Medium	Beast		Unaligned	1/8	25	mm 333
+Neogi Hatchling	Tiny	Aberration		LE	1/8	25	vgm 179
+Noble	Medium	Humanoid			1/8	25	mm 348
+Poisonous Snake	Tiny	Beast		Unaligned	1/8	25	mm 334
+Pony	Medium	Beast		Unaligned	1/8	25	mm 335
+Slaad Tadpole	Tiny	Aberration		CN	1/8	25	mm 276
+Stirge	Tiny	Beast		Unaligned	1/8	25	mm 284
+Tribal Warrior	Medium	Humanoid			1/8	25	mm 350
+Twig Blight	Small	Plant		NE	1/8	25	mm 32
+Xvart	Small	Humanoid	xvart	CE	1/8	25	vgm 200
+Young Kruthik	Small	Monstrosity		Unaligned	1/8	25	mtf 211
+Aarakocra	Medium	Humanoid	aarakocra	NG	1/4	50	mm 12
+Abyssal Wretch	Medium	Fiend	demon	CE	1/4	50	mtf 136
+Acolyte	Medium	Humanoid		Any	1/4	50	mm 342
+Axe Beak	Large	Beast		Unaligned	1/4	50	mm 317
+Blink Dog	Medium	Fey		LG	1/4	50	mm 318
+Boar	Medium	Beast		Unaligned	1/4	50	mm 319
+Bullywug	Medium	Humanoid	bullywug	NE	1/4	50	mm 35
+Constrictor Snake	Large	Beast		Unaligned	1/4	50	mm 320
+Cow	Large	Beast		Unaligned	1/4	50	vgm 207
+Deep Rothe	Medium	Beast		Unaligned	1/4	50	vgm 207
+Derro	Small	Humanoid	derro	CE	1/4	50	mtf 158
+Dimetrodon	Medium	Beast		Unaligned	1/4	50	vgm 139
+Draft Horse	Large	Beast		Unaligned	1/4	50	mm 321
+Dretch	Small	Fiend	demon	CE	1/4	50	mm 57
+Drow	Medium	Humanoid	elf	NE	1/4	50	mm 128
+Duodrone	Medium	Construct		LN	1/4	50	mm 225
+Elk	Large	Beast		Unaligned	1/4	50	mm 322
+Flying Sword	Small	Construct		Unaligned	1/4	50	mm 20
+Giant Badger	Medium	Beast		Unaligned	1/4	50	mm 323
+Giant Bat	Large	Beast		Unaligned	1/4	50	mm 323
+Giant Centipede	Small	Beast		Unaligned	1/4	50	mm 323
+Giant Frog	Medium	Beast		Unaligned	1/4	50	mm 325
+Giant Lizard	Large	Beast		Unaligned	1/4	50	mm 326
+Giant Owl	Large	Beast		N	1/4	50	mm 327
+Giant Poisonous Snake	Medium	Beast		Unaligned	1/4	50	mm 327
+Giant Wolf Spider	Medium	Beast		Unaligned	1/4	50	mm 330
+Gnoll Witherling	Medium	Undead		CE	1/4	50	vgm 155
+Goblin	Small	Humanoid	goblinoid	NE	1/4	50	mm 166
+Grimlock	Medium	Humanoid	grimlock	NE	1/4	50	mm 175
+Grung	Small	Humanoid	grung	LE	1/4	50	vgm 156
+Hadrosaurus	Large	Beast		Unaligned	1/4	50	vgm 140
+Kenku	Medium	Humanoid	kenku	CN	1/4	50	mm 194
+Kobold Inventor	Small	Humanoid	kobold	LE	1/4	50	vgm 166
+Kuo-toa	Medium	Humanoid	kuo-toa	NE	1/4	50	mm 199
+Male Steeder	Medium	Monstrosity		Unaligned	1/4	50	mtf 238
+Mud Mephit	Small	Elemental		NE	1/4	50	mm 216
+Needle Blight	Medium	Plant		NE	1/4	50	mm 32
+Oblex Spawn	Tiny	Ooze		LE	1/4	50	mtf 217
+Ox	Large	Beast		Unaligned	1/4	50	vgm 207
+Panther	Medium	Beast		Unaligned	1/4	50	mm 333
+Pixie	Tiny	Fey		NG	1/4	50	mm 253
+Pseudodragon	Tiny	Dragon		NG	1/4	50	mm 254
+Pteranodon	Medium	Beast		Unaligned	1/4	50	mm 80
+Riding Horse	Large	Beast		Unaligned	1/4	50	mm 336
+Rothe	Large	Beast		Unaligned	1/4	50	vgm 207
+Skeleton	Medium	Undead		LE	1/4	50	mm 272
+Smoke Mephit	Small	Elemental		NE	1/4	50	mm 217
+Sprite	Tiny	Fey		NG	1/4	50	mm 283
+Star Spawn Grue	Small	Aberration		NE	1/4	50	mtf 234
+Steam Mephit	Small	Elemental		NE	1/4	50	mm 217
+Stench Kow	Large	Beast		Unaligned	1/4	50	vgm 207
+Swarm of Bats	Medium	Beast		Unaligned	1/4	50	mm 337
+Swarm of Rats	Medium	Beast		Unaligned	1/4	50	mm 339
+Swarm of Ravens	Medium	Beast		Unaligned	1/4	50	mm 339
+Tortle	Medium	Humanoid	tortle	LG	1/4	50	mtf 242
+Troglodyte	Medium	Humanoid	troglodyte	CE	1/4	50	mm 290
+Vegepygmy	Small	Plant		N	1/4	50	vgm 196
+Velociraptor	Tiny	Beast		Unaligned	1/4	50	vgm 140
+Violet Fungus	Medium	Plant		Unaligned	1/4	50	mm 138
+Winged Kobold	Small	Humanoid	kobold	LE	1/4	50	mm 195
+Wolf	Medium	Beast		Unaligned	1/4	50	mm 341
+Wretched Sorrowsworn	Small	Monstrosity		NE	1/4	50	mtf 233
+Zombie	Medium	Undead		NE	1/4	50	mm 316
+Ape	Medium	Beast		Unaligned	1/2	100	mm 317
+Black Bear	Medium	Beast		Unaligned	1/2	100	mm 318
+Chitine	Small	Monstrosity		CE	1/2	100	vgm 131
+Cockatrice	Small	Monstrosity		Unaligned	1/2	100	mm 42
+Crocodile	Large	Beast		Unaligned	1/2	100	mm 320
+Darkling	Small	Fey		CN	1/2	100	vgm 134
+Darkmantle	Small	Monstrosity		Unaligned	1/2	100	mm 46
+Dust Mephit	Small	Elemental		NE	1/2	100	mm 215
+Firenewt Warrior	Medium	Humanoid	firenewt	NE	1/2	100	vgm 142
+Gas Spore	Large	Plant		Unaligned	1/2	100	mm 138
+Gazer	Tiny	Aberration		NE	1/2	100	vgm 126
+Giant Goat	Large	Beast		Unaligned	1/2	100	mm 326
+Giant Sea Horse	Large	Beast		Unaligned	1/2	100	mm 328
+Giant Wasp	Medium	Beast		Unaligned	1/2	100	mm 329
+Gnoll	Medium	Humanoid	gnoll	CE	1/2	100	mm 163
+Gnoll Hunter	Medium	Humanoid	gnoll	CE	1/2	100	vgm 154
+Gray Ooze	Medium	Ooze		Unaligned	1/2	100	mm 243
+Hobgoblin	Medium	Humanoid	goblinoid	LE	1/2	100	mm 186
+Ice Mephit	Small	Elemental		NE	1/2	100	mm 215
+Jackalwere	Medium	Humanoid	shapechanger	CE	1/2	100	mm 193
+Lizardfolk	Medium	Humanoid	lizardfolk	N	1/2	100	mm 204
+Magma Mephit	Small	Elemental		NE	1/2	100	mm 216
+Magmin	Small	Elemental		CN	1/2	100	mm 212
+Myconid Adult	Medium	Plant		LN	1/2	100	mm 232
+Nupperibo	Medium	Fiend	devil	LE	1/2	100	mtf 168
+Orc	Medium	Humanoid	orc	CE	1/2	100	mm 246
+Orc Nurtured One of Yurtrus	Medium	Humanoid	orc	CE	1/2	100	vgm 184
+Piercer	Medium	Monstrosity		Unaligned	1/2	100	mm 252
+Reef Shark	Medium	Beast		Unaligned	1/2	100	mm 336
+Rust Monster	Medium	Monstrosity		Unaligned	1/2	100	mm 262
+Sahuagin	Medium	Humanoid	sahuagin	LE	1/2	100	mm 263
+Satyr	Medium	Fey		CN	1/2	100	mm 267
+Scout	Medium	Humanoid			1/2	100	mm 349
+Shadow	Medium	Undead		CE	1/2	100	mm 269
+Skulk	Medium	Humanoid		CN	1/2	100	mtf 227
+Svirfneblin	Small	Humanoid	gnome	NG	1/2	100	mm 164
+Swarm of Insects	Medium	Beast		Unaligned	1/2	100	mm 338
+Swarm of Rot Grubs	Medium	Beast		Unaligned	1/2	100	vgm 208
+Thug	Medium	Humanoid			1/2	100	mm 350
+Tridrone	Medium	Construct		LN	1/2	100	mm 225
+Vine Blight	Medium	Plant		NE	1/2	100	mm 32
+Warhorse	Large	Beast		Unaligned	1/2	100	mm 340
+Warhorse Skeleton	Large	Undead		LE	1/2	100	mm 273
+Worg	Large	Monstrosity		NE	1/2	100	mm 341
+Animated Armor	Medium	Construct		Unaligned	1	200	mm 19
+Brass Dragon Wyrmling	Medium	Dragon		CG	1	200	mm 106
+Bronze Scout	Medium	Construct		Unaligned	1	200	mtf 125
+Brown Bear	Large	Beast		Unaligned	1	200	mm 319
+Bugbear	Medium	Humanoid	goblinoid	CE	1	200	mm 33
+Choker	Small	Aberration		CE	1	200	mtf 123
+Copper Dragon Wyrmling	Medium	Dragon		CG	1	200	mm 112
+Death Dog	Medium	Monstrosity		NE	1	200	mm 321
+Deinonychus	Medium	Beast		Unaligned	1	200	vgm 139
+Dire Wolf	Large	Beast		Unaligned	1	200	mm 321
+Dryad	Medium	Fey		N	1	200	mm 121
+Duergar	Medium	Humanoid	dwarf	LE	1	200	mm 122
+Duergar Soulblade	Medium	Humanoid	dwarf	LE	1	200	mtf 190
+Female Steeder	Large	Monstrosity		Unaligned	1	200	mtf 238
+Fire Snake	Medium	Elemental		NE	1	200	mm 265
+Firenewt Warlock of Imix	Medium	Humanoid	firenewt	NE	1	200	vgm 143
+Ghoul	Medium	Undead		CE	1	200	mm 148
+Giant Eagle	Large	Beast		NG	1	200	mm 324
+Giant Hyena	Large	Beast		Unaligned	1	200	mm 326
+Giant Octopus	Large	Beast		Unaligned	1	200	mm 326
+Giant Spider	Large	Beast		Unaligned	1	200	mm 328
+Giant Strider	Large	Monstrosity		NE	1	200	vgm 143
+Giant Toad	Large	Beast		Unaligned	1	200	mm 329
+Giant Vulture	Large	Beast		NE	1	200	mm 329
+Gnoll Flesh Gnawer	Medium	Humanoid	gnoll	CE	1	200	vgm 154
+Goblin Boss	Small	Humanoid	goblinoid	NE	1	200	mm 166
+Grung Wildling	Small	Humanoid	grung	LE	1	200	vgm 157
+Half-ogre	Large	Giant		Any chaotic	1	200	mm 238
+Harpy	Medium	Monstrosity		CE	1	200	mm 181
+Hippogriff	Large	Monstrosity		Unaligned	1	200	mm 184
+Imp	Tiny	Fiend	devil, shapechanger	LE	1	200	mm 76
+Kobold Dragonshield	Small	Humanoid	kobold	LE	1	200	vgm 165
+Kobold Scale Sorcerer	Small	Humanoid	kobold	LE	1	200	vgm 167
+Kuo-toa Whip	Medium	Humanoid	kuo-toa	NE	1	200	mm 200
+Lion	Large	Beast		Unaligned	1	200	mm 331
+Maw Demon	Medium	Fiend	demon	CE	1	200	vgm 137
+Meazel	Medium	Humanoid	meazel	NE	1	200	mtf 214
+Nilbog	Small	Humanoid	goblinoid	CE	1	200	vgm 182
+Quadrone	Medium	Construct		LN	1	200	mm 226
+Quaggoth Spore Servant	Medium	Plant		Unaligned	1	200	mm 230
+Quasit	Tiny	Fiend	demon, shapechanger	CE	1	200	mm 63
+Quickling	Tiny	Fey		CE	1	200	vgm 187
+Scarecrow	Medium	Construct		CE	1	200	mm 268
+Sea Spawn	Medium	Humanoid		NE	1	200	vgm 189
+Specter	Medium	Undead		CE	1	200	mm 279
+Spy	Medium	Humanoid			1	200	mm 349
+Stone Cursed	Medium	Construct		LE	1	200	mtf 240
+Swarm of Quippers	Medium	Beast		Unaligned	1	200	mm 338
+Thorny	Medium	Plant		N	1	200	vgm 197
+Thri-kreen	Medium	Humanoid	thri-kreen	CN	1	200	mm 288
+Tiger	Large	Beast		Unaligned	1	200	mm 339
+Vargouille	Tiny	Fiend		CE	1	200	vgm 195
+Xvart Warlock of Raxivort	Small	Humanoid	xvart	CE	1	200	vgm 200
+Young Faerie Dragon	Tiny	Dragon		CG	1	200	mm 133
+Yuan-ti Pureblood	Medium	Humanoid	yuan-ti	NE	1	200	mm 310
+Adult Faerie Dragon	Tiny	Dragon		CG	2	450	mm 133
+Adult Kruthik	Medium	Monstrosity		Unaligned	2	450	mtf 212
+Allosaurus	Large	Beast		Unaligned	2	450	mm 79
+Ankheg	Large	Monstrosity		Unaligned	2	450	mm 21
+Aurochs	Large	Beast		Unaligned	2	450	vgm 207
+Awakened Tree	Huge	Plant		Unaligned	2	450	mm 317
+Azer	Medium	Elemental		LN	2	450	mm 22
+Bandit Captain	Medium	Humanoid		Any non-lawful	2	450	mm 344
+Berbalang	Medium	Aberration		NE	2	450	mtf 120
+Berserker	Medium	Humanoid		Any chaotic	2	450	mm 344
+Black Dragon Wyrmling	Medium	Dragon		CE	2	450	mm 88
+Bronze Dragon Wyrmling	Medium	Dragon		LG	2	450	mm 109
+Carrion Crawler	Large	Monstrosity		Unaligned	2	450	mm 37
+Cave Bear	Large	Beast		Unaligned	2	450	mm 334
+Centaur	Large	Monstrosity		NG	2	450	mm 38
+Cult Fanatic	Medium	Humanoid		Any non-good	2	450	mm 345
+Darkling Elder	Medium	Fey		CN	2	450	vgm 134
+Druid	Medium	Humanoid		Any	2	450	mm 346
+Duergar Hammerer	Medium	Construct		LE	2	450	mtf 188
+Duergar Kavalrachni	Medium	Humanoid	dwarf	LE	2	450	mtf 189
+Duergar Mind Master	Medium	Humanoid	dwarf	LE	2	450	mtf 189
+Duergar Stone Guard	Medium	Humanoid	dwarf	LE	2	450	mtf 191
+Duergar Xarrorn	Medium	Humanoid	dwarf	LE	2	450	mtf 193
+Ettercap	Medium	Monstrosity		NE	2	450	mm 131
+Gargoyle	Medium	Elemental		CE	2	450	mm 140
+Gelatinous Cube	Large	Ooze		Unaligned	2	450	mm 242
+Ghast	Medium	Undead		CE	2	450	mm 148
+Giant Boar	Large	Beast		Unaligned	2	450	mm 323
+Giant Constrictor Snake	Huge	Beast		Unaligned	2	450	mm 324
+Giant Elk	Huge	Beast		Unaligned	2	450	mm 325
+Gibbering Mouther	Medium	Aberration		N	2	450	mm 157
+Githzerai Monk	Medium	Humanoid	gith	LN	2	450	mm 161
+Gnoll Pack Lord	Medium	Humanoid	gnoll	CE	2	450	mm 163
+Green Dragon Wyrmling	Medium	Dragon		LE	2	450	mm 95
+Grick	Medium	Monstrosity		N	2	450	mm 173
+Griffon	Large	Monstrosity		Unaligned	2	450	mm 174
+Grung Elite Warrior	Small	Humanoid	grung	LE	2	450	vgm 157
+Guard Drake	Medium	Dragon		Unaligned	2	450	vgm 158
+Hobgoblin Iron Shadow	Medium	Humanoid	goblinoid	LE	2	450	vgm 162
+Hunter Shark	Large	Beast		Unaligned	2	450	mm 330
+Intellect Devourer	Tiny	Aberration		LE	2	450	mm 191
+Lizardfolk Shaman	Medium	Humanoid	lizardfolk	N	2	450	mm 205
+Meenlock	Small	Fey		NE	2	450	vgm 170
+Merrow	Large	Monstrosity		CE	2	450	mm 219
+Mimic	Medium	Monstrosity	shapechanger	N	2	450	mm 220
+Minotaur Skeleton	Large	Undead		LE	2	450	mm 273
+Myconid Sovereign	Large	Plant		LN	2	450	mm 232
+Nothic	Medium	Aberration		NE	2	450	mm 236
+Ochre Jelly	Large	Ooze		Unaligned	2	450	mm 243
+Ogre	Large	Giant		CE	2	450	mm 237
+Ogre Bolt Launcher	Large	Giant		CE	2	450	mtf 220
+Ogre Howdah	Large	Giant		CE	2	450	mtf 221
+Ogre Zombie	Large	Undead		NE	2	450	mm 316
+Orc Claw of Luthic	Medium	Humanoid	orc	CE	2	450	vgm 183
+Orc Eye of Gruumsh	Medium	Humanoid	orc	CE	2	450	mm 247
+Orc Hand of Yurtrus	Medium	Humanoid	orc	CE	2	450	vgm 184
+Orog	Medium	Humanoid	orc	CE	2	450	mm 247
+Pegasus	Large	Celestial		CG	2	450	mm 250
+Pentadrone	Large	Construct		LN	2	450	mm 226
+Peryton	Medium	Monstrosity		CE	2	450	mm 251
+Plesiosaurus	Large	Beast		Unaligned	2	450	mm 80
+Polar Bear	Large	Beast		Unaligned	2	450	mm 334
+Priest	Medium	Humanoid			2	450	mm 348
+Quaggoth	Medium	Humanoid	quaggoth	CN	2	450	mm 256
+Quetzalcoatlus	Huge	Beast		Unaligned	2	450	vgm 140
+Rhinoceros	Large	Beast		Unaligned	2	450	mm 336
+Rug of Smothering	Large	Construct		Unaligned	2	450	mm 20
+Rutterkin	Medium	Fiend	demon	CE	2	450	mtf 136
+Saber-toothed Tiger	Large	Beast		Unaligned	2	450	mm 336
+Sahuagin Priestess	Medium	Humanoid	sahuagin	LE	2	450	mm 264
+Sea Hag	Medium	Fey		CE	2	450	mm 179
+Shadow Mastiff	Medium	Monstrosity	NE	NE	2	450	vgm 190
+Silver Dragon Wyrmling	Medium	Dragon		LG	2	450	mm 118
+Specter (poltergeist)	Medium	Undead		CE	2	450	mm 279
+Spined Devil	Small	Fiend	devil	LE	2	450	mm 78
+Swarm of Poisonous Snakes	Medium	Beast		Unaligned	2	450	mm 338
+Tortle Druid	Medium	Humanoid	tortle	LN	2	450	mtf 242
+Vegepygmy Chief	Small	Plant		N	2	450	vgm 197
+Wererat	Medium	Humanoid	human, shapechanger	LE	2	450	mm 209
+White Dragon Wyrmling	Medium	Dragon		CE	2	450	mm 102
+Will-o-wisp	Tiny	Undead		CE	2	450	mm 301
+Yuan-ti Broodguard	Medium	Humanoid	yuan-ti	NE	2	450	vgm 203
+Ankylosaurus	Huge	Beast		Unaligned	3	700	mm 79
+Basilisk	Medium	Monstrosity		Unaligned	3	700	mm 24
+Bearded Devil	Medium	Fiend	devil	LE	3	700	mm 70
+Blue Dragon Wyrmling	Medium	Dragon		LE	3	700	mm 91
+Bugbear Chief	Medium	Humanoid	goblinoid	CE	3	700	mm 33
+Bulezau	Medium	Fiend	demon	CE	3	700	mtf 131
+Cave Fisher	Medium	Monstrosity		Unaligned	3	700	vgm 130
+Choldrith	Medium	Monstrosity		CE	3	700	vgm 132
+Deathlock Wight	Medium	Undead		NE	3	700	mtf 129
+Deep Scion	Medium	Humanoid	shapechanger	NE	3	700	vgm 135
+Derro Savant	Small	Humanoid	derro	CE	3	700	mtf 159
+Displacer Beast	Large	Monstrosity		LE	3	700	mm 81
+Doppelganger	Medium	Monstrosity	shapechanger	N	3	700	mm 82
+Duergar Screamer	Medium	Construct		LE	3	700	mtf 190
+Flail Snail	Large	Elemental		Unaligned	3	700	vgm 144
+Giant Scorpion	Large	Beast		Unaligned	3	700	mm 327
+Giff	Medium	Humanoid		LN	3	700	mtf 204
+Githyanki Warrior	Medium	Humanoid	gith	LE	3	700	mm 160
+Gold Dragon Wyrmling	Medium	Dragon		LG	3	700	mm 115
+Green Hag	Medium	Fey		NE	3	700	mm 177
+Grell	Medium	Aberration		NE	3	700	mm 172
+Hell Hound	Medium	Fiend		LE	3	700	mm 182
+Hobgoblin Captain	Medium	Humanoid	goblinoid	LE	3	700	mm 186
+Hook Horror	Large	Monstrosity		N	3	700	mm 189
+Killer Whale	Huge	Beast		Unaligned	3	700	mm 331
+Knight	Medium	Humanoid			3	700	mm 347
+Leucrotta	Large	Monstrosity		CE	3	700	vgm 169
+Manticore	Large	Monstrosity		LE	3	700	mm 213
+Merrenoloth	Medium	Fiend	yugoloth	NE	3	700	mtf 250
+Minotaur	Large	Monstrosity		CE	3	700	mm 223
+Mummy	Medium	Undead		LE	3	700	mm 228
+Neogi	Small	Aberration		LE	3	700	vgm 180
+Nightmare	Large	Fiend		NE	3	700	mm 235
+Ogre Chain Brute	Large	Giant		CE	3	700	mtf 221
+Orc Red Fang of Shargaas	Medium	Humanoid	orc	CE	3	700	vgm 185
+Owlbear	Large	Monstrosity		Unaligned	3	700	mm 249
+Phase Spider	Large	Monstrosity		Unaligned	3	700	mm 334
+Quaggoth Thonot	Medium	Humanoid	quaggoth	CN	3	700	mm 256
+Redcap	Small	Fey		CE	3	700	vgm 188
+Slithering Tracker	Medium	Ooze		CE	3	700	vgm 191
+Spectator	Medium	Aberration		LN	3	700	mm 30
+Sword Wraith Warrior	Medium	Undead		LE	3	700	mtf 241
+Trapper	Large	Monstrosity		Unaligned	3	700	vgm 194
+Vampiric Mist	Medium	Undead		CE	3	700	mtf 246
+Veteran	Medium	Humanoid			3	700	mm 350
+Water Weird	Large	Elemental		N	3	700	mm 299
+Werewolf	Medium	Humanoid	human, shapechanger	CE	3	700	mm 211
+Wight	Medium	Undead		NE	3	700	mm 300
+Winter Wolf	Large	Monstrosity		NE	3	700	mm 340
+Yeti	Large	Monstrosity		CE	3	700	mm 305
+Yuan-ti Malison	Medium	Monstrosity	shapechanger, yuan-ti	NE	3	700	mm 309
+Babau	Medium	Fiend	demon	CE	4	1100	vgm 136
+Banshee	Medium	Undead		CE	4	1100	mm 23
+Barghest	Large	Fiend	shapechanger	NE	4	1100	vgm 123
+Black Pudding	Large	Ooze		Unaligned	4	1100	mm 241
+Bone Naga	Large	Undead		LE	4	1100	mm 233
+Chuul	Large	Aberration		CE	4	1100	mm 40
+Couatl	Medium	Celestial		LG	4	1100	mm 43
+Deathlock	Medium	Undead		NE	4	1100	mtf 128
+Dybbuk	Medium	Fiend	demon	CE	4	1100	mtf 132
+Elephant	Huge	Beast		Unaligned	4	1100	mm 322
+Ettin	Large	Giant		CE	4	1100	mm 132
+Flameskull	Tiny	Undead		NE	4	1100	mm 134
+Ghost	Medium	Undead		Any	4	1100	mm 147
+Girallon	Large	Monstrosity		Unaligned	4	1100	vgm 152
+Gnoll Fang of Yeenoghu	Medium	Fiend	gnoll	CE	4	1100	mm 163
+Helmed Horror	Medium	Construct		N	4	1100	mm 183
+Hobgoblin Devastator	Medium	Humanoid	goblinoid	LE	4	1100	vgm 161
+Incubus	Medium	Fiend	shapechanger	NE	4	1100	mm 285
+Iron Cobra	Medium	Construct		Unaligned	4	1100	mtf 125
+Lamia	Large	Monstrosity		CE	4	1100	mm 201
+Lizard King/Queen	Medium	Humanoid	lizardfolk	CE	4	1100	mm 205
+Merregon	Medium	Fiend	devil	LE	4	1100	mtf 166
+Neogi Master	Medium	Aberration		LE	4	1100	vgm 180
+Ogre Battering Ram	Large	Giant		CE	4	1100	mtf 220
+Orc Blade of Ilneval	Medium	Humanoid	orc	CE	4	1100	vgm 183
+Orc War Chief	Medium	Humanoid	orc	CE	4	1100	mm 246
+Red Dragon Wyrmling	Medium	Dragon		CE	4	1100	mm 98
+Shadow Demon	Medium	Fiend	demon	CE	4	1100	mm 64
+Stegosaurus	Huge	Beast		Unaligned	4	1100	vgm 140
+Stone Defender	Medium	Construct		Unaligned	4	1100	mtf 126
+Succubus	Medium	Fiend	shapechanger	NE	4	1100	mm 285
+Wereboar	Medium	Humanoid	human, shapechanger	NE	4	1100	mm 209
+Weretiger	Medium	Humanoid	human, shapechanger	N	4	1100	mm 210
+Yeth Hound	Large	Fey		NE	4	1100	vgm 201
+Yuan-ti Mind Whisperer	Medium	Monstrosity	shapechanger, yuan-ti	NE	4	1100	vgm 204
+Yuan-ti Nightmare Speaker	Medium	Monstrosity	shapechanger, yuan-ti	NE	4	1100	vgm 205
+Adult Oblex	Medium	Ooze		LE	5	1800	mtf 218
+Air Elemental	Large	Elemental		N	5	1800	mm 124
+Allip	Medium	Undead		NE	5	1800	mtf 116
+Banderhobb	Large	Monstrosity		NE	5	1800	vgm 122
+Barbed Devil	Medium	Fiend	devil	LE	5	1800	mm 70
+Barlgura	Large	Fiend	demon	CE	5	1800	mm 56
+Beholder Zombie	Large	Undead		NE	5	1800	mm 316
+Brontosaurus	Gargantuan	Beast		Unaligned	5	1800	vgm 139
+Bulette	Large	Monstrosity		Unaligned	5	1800	mm 34
+Cambion	Medium	Fiend		Any evil	5	1800	mm 36
+Catoblepas	Large	Monstrosity		Unaligned	5	1800	vgm 129
+Drow Elite Warrior	Medium	Humanoid	elf	NE	5	1800	mm 128
+Earth Elemental	Large	Elemental		N	5	1800	mm 124
+Fire Elemental	Large	Elemental		N	5	1800	mm 125
+Flesh Golem	Medium	Construct		N	5	1800	mm 169
+Giant Crocodile	Huge	Beast		Unaligned	5	1800	mm 324
+Giant Shark	Huge	Beast		Unaligned	5	1800	mm 328
+Gladiator	Medium	Humanoid		Any	5	1800	mm 346
+Gorgon	Large	Monstrosity		Unaligned	5	1800	mm 171
+Half-Red Dragon Veteran	Medium	Humanoid	human	Any	5	1800	mm 180
+Hill Giant	Huge	Giant		CE	5	1800	mm 155
+Kruthik Hive Lord	Large	Monstrosity		Unaligned	5	1800	mtf 212
+Mezzoloth	Medium	Fiend	yugoloth	NE	5	1800	mm 313
+Mindwitness	Large	Aberration		LE	5	1800	vgm 176
+Night Hag	Medium	Fiend		NE	5	1800	mm 178
+Oaken Bolter	Medium	Construct		Unaligned	5	1800	mtf 126
+Otyugh	Large	Aberration		N	5	1800	mm 248
+Red Slaad	Large	Aberration		CN	5	1800	mm 276
+Revenant	Medium	Undead		N	5	1800	mm 259
+Roper	Large	Monstrosity		NE	5	1800	mm 261
+Sahuagin Baron	Large	Humanoid	sahuagin	LE	5	1800	mm 264
+Salamander	Large	Elemental		NE	5	1800	mm 266
+Shambling Mound	Large	Plant		Unaligned	5	1800	mm 270
+Spawn of Kyuss	Medium	Undead		CE	5	1800	vgm 192
+Star Spawn Mangler	Medium	Aberration		CE	5	1800	mtf 236
+Swarm of Cranium Rats	Medium	Beast		LE	5	1800	vgm 133
+Tanarukk	Medium	Fiend	demon, orc	CE	5	1800	vgm 186
+Tlincalli	Large	Monstrosity		NE	5	1800	vgm 193
+Triceratops	Huge	Beast		Unaligned	5	1800	mm 80
+Troll	Large	Giant		CE	5	1800	mm 291
+Umber Hulk	Large	Monstrosity		CE	5	1800	mm 292
+Unicorn	Large	Celestial		LG	5	1800	mm 294
+Vampire Spawn	Medium	Undead		NE	5	1800	mm 298
+Water Elemental	Large	Elemental		N	5	1800	mm 125
+Werebear	Medium	Humanoid	human, shapechanger	NG	5	1800	mm 208
+Wood Woad	Medium	Plant		LN	5	1800	vgm 198
+Wraith	Medium	Undead		NE	5	1800	mm 302
+Xorn	Medium	Elemental		N	5	1800	mm 304
+Young Remorhaz	Large	Monstrosity		Unaligned	5	1800	mm 258
+Yuan-ti Pit Master	Medium	Monstrosity	shapechanger, yuan-ti	NE	5	1800	vgm 206
+Annis Hag	Large	Fey		CE	6	2300	vgm 159
+Bodak	Medium	Undead		CE	6	2300	vgm 127
+Chasme	Large	Fiend	demon	CE	6	2300	mm 57
+Chimera	Large	Monstrosity		CE	6	2300	mm 39
+Cyclops	Huge	Giant		CN	6	2300	mm 45
+Drider	Large	Monstrosity		CE	6	2300	mm 120
+Duergar Warlord	Medium	Humanoid	dwarf	LE	6	2300	mtf 192
+Galeb Duhr	Medium	Elemental		N	6	2300	mm 139
+Gauth	Medium	Aberration		LE	6	2300	vgm 125
+Githzerai Zerth	Medium	Humanoid	gith	LN	6	2300	mm 161
+Hobgoblin Warlord	Medium	Humanoid	goblinoid	LE	6	2300	mm 187
+Invisible Stalker	Medium	Elemental		N	6	2300	mm 192
+Kuo-toa Archpriest	Medium	Humanoid	kuo-toa	NE	6	2300	mm 200
+Mage	Medium	Humanoid			6	2300	mm 347
+Mammoth	Huge	Beast		Unaligned	6	2300	mm 332
+Medusa	Medium	Monstrosity		LE	6	2300	mm 214
+Mouth of Grolantor	Huge	Giant	hill giant	CE	6	2300	vgm 149
+Vrock	Large	Fiend	demon	CE	6	2300	mm 64
+White Abishai	Medium	Fiend	devil	LE	6	2300	mtf 163
+Wyvern	Large	Dragon		Unaligned	6	2300	mm 303
+Young Brass Dragon	Large	Dragon		CG	6	2300	mm 105
+Young White Dragon	Large	Dragon		CE	6	2300	mm 101
+Air Elemental Myrmidon	Medium	Elemental		N	7	2900	mtf 202
+Armanite	Large	Fiend	demon	CE	7	2900	mtf 131
+Bheur Hag	Medium	Fey		CE	7	2900	vgm 160
+Black Abishai	Medium	Fiend	devil	LE	7	2900	mtf 160
+Blue Slaad	Large	Aberration		CN	7	2900	mm 276
+Dhergoloth	Medium	Fiend	yugoloth	NE	7	2900	mtf 248
+Draegloth	Large	Fiend	demon	CE	7	2900	vgm 141
+Drow Mage	Medium	Humanoid	elf	NE	7	2900	mm 129
+Earth Elemental Myrmidon	Medium	Elemental		N	7	2900	mtf 202
+Fire Elemental Myrmidon	Medium	Elemental		N	7	2900	mtf 203
+Giant Ape	Huge	Beast		Unaligned	7	2900	mm 323
+Grick Alpha	Large	Monstrosity		N	7	2900	mm 173
+Korred	Small	Fey		CN	7	2900	vgm 168
+Lost Sorrowsworn	Medium	Monstrosity		NE	7	2900	mtf 233
+Maurezhi	Medium	Fiend	demon	CE	7	2900	mtf 133
+Mind Flayer	Medium	Aberration		LE	7	2900	mm 222
+Oni	Large	Giant		LE	7	2900	mm 239
+Shadow Dancer	Medium	Humanoid	elf	N	7	2900	mtf 225
+Shield Guardian	Large	Construct		Unaligned	7	2900	mm 271
+Stone Giant	Huge	Giant		N	7	2900	mm 156
+Venom Troll	Large	Giant		CE	7	2900	mtf 245
+Water Elemental Myrmidon	Medium	Elemental		N	7	2900	mtf 203
+Young Black Dragon	Large	Dragon		CE	7	2900	mm 88
+Young Copper Dragon	Large	Dragon		CG	7	2900	mm 111
+Yuan-ti Abomination	Large	Monstrosity	shapechanger, yuan-ti	NE	7	2900	mm 308
+Assassin	Medium	Humanoid		Any non-good	8	3900	mm 343
+Canoloth	Medium	Fiend	yugoloth	NE	8	3900	mtf 247
+Chain Devil	Medium	Fiend	devil	LE	8	3900	mm 72
+Cloaker	Large	Aberration		CN	8	3900	mm 41
+Corpse Flower	Large	Plant		CE	8	3900	mtf 127
+Deathlock Mastermind	Medium	Undead		NE	8	3900	mtf 129
+Drow Priestess of Lolth	Medium	Humanoid	elf	NE	8	3900	mm 129
+Fomorian	Huge	Giant		CE	8	3900	mm 136
+Frost Giant	Huge	Giant		NE	8	3900	mm 155
+Githyanki Knight	Medium	Humanoid	gith	LE	8	3900	mm 160
+Green Slaad	Large	Aberration	shapechanger	CN	8	3900	mm 277
+Hezrou	Large	Fiend	demon	CE	8	3900	mm 60
+Howler	Large	Fiend		CE	8	3900	mtf 210
+Hydra	Huge	Monstrosity		Unaligned	8	3900	mm 190
+Mind Flayer Arcanist	Medium	Aberration		LE	8	3900	mm 222
+Shoosuva	Large	Fiend	demon	CE	8	3900	vgm 137
+Spirit Naga	Large	Monstrosity		CE	8	3900	mm 234
+Sword Wraith Commander	Medium	Undead		LE	8	3900	mtf 241
+Tyrannosaurus Rex	Huge	Beast		Unaligned	8	3900	mm 80
+Young Bronze Dragon	Large	Dragon		LG	8	3900	mm 108
+Young Green Dragon	Large	Dragon		LE	8	3900	mm 94
+Abominable Yeti	Huge	Monstrosity		CE	9	5000	mm 306
+Bone Devil	Large	Fiend	devil	LE	9	5000	mm 71
+Clay Golem	Large	Construct		Unaligned	9	5000	mm 168
+Cloud Giant	Huge	Giant		NG or NE	9	5000	mm 154
+Drow House Captain	Medium	Humanoid	elf	NE	9	5000	mtf 184
+Fire Giant	Huge	Giant		LE	9	5000	mm 154
+Flind	Medium	Humanoid	gnoll	CE	9	5000	vgm 153
+Frost Salamander	Huge	Elemental		Unaligned	9	5000	mtf 223
+Glabrezu	Large	Fiend	demon	CE	9	5000	mm 58
+Gloom Weaver	Medium	Humanoid	elf	N	9	5000	mtf 224
+Gray Slaad	Medium	Aberration	shapechanger	CN	9	5000	mm 277
+Hydroloth	Medium	Fiend	yugoloth	NE	9	5000	mtf 249
+Lonely Sorrowsworn	Medium	Monstrosity		NE	9	5000	mtf 232
+Nycaloth	Large	Fiend	yugoloth	NE	9	5000	mm 314
+Rot Troll	Large	Giant		CE	9	5000	mtf 244
+Treant	Huge	Plant		CG	9	5000	mm 289
+Ulitharid	Large	Aberration		LE	9	5000	vgm 175
+Young Blue Dragon	Large	Dragon		LE	9	5000	mm 91
+Young Silver Dragon	Large	Dragon		LG	9	5000	mm 118
+Aboleth	Large	Aberration		LE	10	5900	mm 13
+Alhoon	Medium	Undead		Any evil	10	5900	vgm 172
+Autumn Eladrin	Medium	Fey	elf	CN	10	5900	mtf 195
+Death Kiss	Large	Aberration		NE	10	5900	vgm 124
+Death Slaad	Medium	Aberration	shapechanger	CE	10	5900	mm 278
+Deva	Medium	Celestial		LG	10	5900	mm 16
+Elder Oblex	Huge	Ooze		LE	10	5900	mtf 219
+Froghemoth	Huge	Monstrosity		Unaligned	10	5900	vgm 145
+Githyanki Gish	Medium	Humanoid	gith	LE	10	5900	mtf 205
+Githzerai Enlightened	Medium	Humanoid	gith	LN	10	5900	mtf 208
+Guardian Naga	Large	Monstrosity		LG	10	5900	mm 234
+Orthon	Large	Fiend	devil	LE	10	5900	mtf 169
+Spring Eladrin	Medium	Fey	elf	CN	10	5900	mtf 196
+Star Spawn Hulk	Large	Aberration		CE	10	5900	mtf 234
+Stone Giant Dreamwalker	Huge	Giant	stone giant	CN	10	5900	vgm 150
+Stone Golem	Large	Construct		Unaligned	10	5900	mm 170
+Summer Eladrin	Medium	Fey	elf	CN	10	5900	mtf 196
+Winter Eladrin	Medium	Fey	elf	CN	10	5900	mtf 197
+Yochlol	Medium	Fiend	demon, shapechanger	CE	10	5900	mm 65
+Young Gold Dragon	Large	Dragon		LG	10	5900	mm 115
+Young Red Dragon	Large	Dragon		CE	10	5900	mm 98
+Alkilith	Medium	Fiend	demon	CE	11	7200	mtf 130
+Balhannoth	Large	Aberration		CE	11	7200	mtf 118
+Behir	Huge	Monstrosity		NE	11	7200	mm 25
+Cloud Giant Smiling One	Huge	Giant	cloud giant	CN	11	7200	vgm 146
+Dao	Large	Elemental		NE	11	7200	mm 143
+Djinni	Large	Elemental		CG	11	7200	mm 144
+Drow Shadowblade	Medium	Humanoid	elf	NE	11	7200	mtf 187
+Efreeti	Large	Elemental		LE	11	7200	mm 145
+Gynosphinx	Large	Monstrosity		LN	11	7200	mm 282
+Horned Devil	Large	Fiend	devil	LE	11	7200	mm 74
+Hungry Sorrowsworn	Medium	Monstrosity		NE	11	7200	mtf 232
+Marid	Large	Elemental		CN	11	7200	mm 146
+Morkoth	Medium	Aberration		CE	11	7200	vgm 178
+Remorhaz	Huge	Monstrosity		Unaligned	11	7200	mm 258
+Roc	Gargantuan	Monstrosity		Unaligned	11	7200	mm 260
+Soul Monger	Medium	Humanoid	elf	N	11	7200	mtf 226
+Spirit Troll	Large	Giant		CE	11	7200	mtf 244
+Yagnoloth	Large	Fiend	yugoloth	NE	11	7200	mtf 252
+Arcanaloth	Medium	Fiend	yugoloth	NE	12	8400	mm 313
+Archmage	Medium	Humanoid		Any	12	8400	mm 342
+Boneclaw	Large	Undead		CE	12	8400	mtf 121
+Duergar Despot	Medium	Humanoid	dwarf	LE	12	8400	mtf 188
+Eidolon	Medium	Undead		Any	12	8400	mtf 194
+Erinyes	Medium	Fiend	devil	LE	12	8400	mm 73
+Frost Giant Everlasting One	Huge	Giant	frost giant	CE	12	8400	vgm 148
+Githyanki Kith'rak	Medium	Humanoid	gith	LE	12	8400	mtf 205
+Gray Render	Large	Monstrosity		CN	12	8400	mtf 209
+Ki-rin	Huge	Celestial		LG	12	8400	vgm 163
+Morkoth (in lair)	Medium	Aberration		CE	12	8400	vgm 178
+Oinoloth	Medium	Fiend	yugoloth	NE	12	8400	mtf 251
+Yuan-ti Anathema	Huge	Monstrosity	shapechanger, yuan-ti	NE	12	8400	vgm 202
+Adult Brass Dragon	Huge	Dragon		CG	13	10000	mm 105
+Adult White Dragon	Huge	Dragon		CE	13	10000	mm 101
+Angry Sorrowsworn	Medium	Monstrosity		NE	13	10000	mtf 231
+Beholder	Large	Aberration		LE	13	10000	mm 28
+Devourer	Large	Fiend		CE	13	10000	vgm 138
+Dire Troll	Huge	Giant		CE	13	10000	mtf 243
+Drow Arachnomancer	Medium	Humanoid	elf	CE	13	10000	mtf 182
+Nalfeshnee	Large	Fiend	demon	CE	13	10000	mm 62
+Narzugon	Medium	Fiend	devil	LE	13	10000	mtf 167
+Neothelid	Gargantuan	Aberration		CE	13	10000	vgm 181
+Rakshasa	Medium	Fiend		LE	13	10000	mm 257
+Star Spawn Seer	Medium	Aberration		NE	13	10000	mtf 236
+Storm Giant	Huge	Giant		CG	13	10000	mm 156
+Ultroloth	Medium	Fiend	yugoloth	NE	13	10000	mm 314
+Vampire	Medium	Undead	shapechanger	LE	13	10000	mm 297
+Wastrilith	Large	Fiend	demon	CE	13	10000	mtf 139
+Young Red Shadow Dragon	Large	Dragon		CE	13	10000	mm 85
+Adult Black Dragon	Huge	Dragon		CE	14	11500	mm 88
+Adult Copper Dragon	Huge	Dragon		CG	14	11500	mm 111
+Beholder (in lair)	Large	Aberration		LE	14	11500	mm 28
+Cadaver Collector	Large	Construct		LE	14	11500	mtf 122
+Death Tyrant	Large	Undead		LE	14	11500	mm 29
+Drow Inquisitor	Medium	Humanoid	elf	NE	14	11500	mtf 184
+Elder Brain	Large	Aberration		LE	14	11500	vgm 174
+Fire Giant Dreadnought	Huge	Giant	fire giant	LE	14	11500	vgm 147
+Githyanki Supreme Commander	Medium	Humanoid	gith	LE	14	11500	mtf 206
+Ice Devil	Large	Fiend	devil	LE	14	11500	mm 75
+Retriever	Large	Construct		LE	14	11500	mtf 222
+Adult Bronze Dragon	Huge	Dragon		LG	15	13000	mm 108
+Adult Green Dragon	Huge	Dragon		LE	15	13000	mm 94
+Death Tyrant (in lair)	Large	Undead		LE	15	13000	mm 29
+Green Abishai	Medium	Fiend	devil	LE	15	13000	mtf 162
+Mummy Lord	Medium	Undead		LE	15	13000	mm 229
+Nabassu	Medium	Fiend	demon	CE	15	13000	mtf 135
+Purple Worm	Gargantuan	Monstrosity		Unaligned	15	13000	mm 255
+Skull Lord	Medium	Undead		LE	15	13000	mtf 230
+Vampire (spellcaster)	Medium	Undead	shapechanger	LE	15	13000	mm 297
+Vampire (warrior)	Medium	Undead	shapechanger	LE	15	13000	mm 297
+Adult Blue Dragon	Huge	Dragon		LE	16	15000	mm 91
+Adult Silver Dragon	Huge	Dragon		LG	16	15000	mm 117
+Githzerai Anarch	Medium	Humanoid	gith	LN	16	15000	mtf 207
+Hellfire Engine	Huge	Construct		LE	16	15000	mtf 165
+Iron Golem	Large	Construct		Unaligned	16	15000	mm 170
+Marilith	Large	Fiend	demon	CE	16	15000	mm 61
+Mummy Lord (in lair)	Medium	Undead		LE	16	15000	mm 229
+Phoenix	Gargantuan	Elemental		N	16	15000	mtf 199
+Planetar	Large	Celestial		LG	16	15000	mm 17
+Star Spawn Larva Mage	Medium	Aberration		CE	16	15000	mtf 235
+Steel Predator	Large	Construct		LE	16	15000	mtf 239
+Storm Giant Quintessent	Huge	Giant	storm giant	CG	16	15000	vgm 151
+Adult Blue Dracolich	Huge	Undead		LE	17	18000	mm 84
+Adult Gold Dragon	Huge	Dragon		LG	17	18000	mm 114
+Adult Red Dragon	Huge	Dragon		CE	17	18000	mm 98
+Androsphinx	Large	Monstrosity		LN	17	18000	mm 281
+Blue Abishai	Medium	Fiend	devil	LE	17	18000	mtf 161
+Death Knight	Medium	Undead		CE	17	18000	mm 47
+Dragon Turtle	Gargantuan	Dragon		N	17	18000	mm 119
+Goristro	Huge	Fiend	demon	CE	17	18000	mm 59
+Nagpa	Medium	Humanoid	nagpa	NE	17	18000	mtf 215
+Amnizu	Medium	Fiend	devil	LE	18	20000	mtf 164
+Demilich	Tiny	Undead		NE	18	20000	mm 48
+Drow Favored Consort	Medium	Humanoid	elf	NE	18	20000	mtf 183
+Sibriex	Huge	Fiend	demon	CE	18	20000	mtf 137
+Balor	Huge	Fiend	demon	CE	19	22000	mm 55
+Red Abishai	Medium	Fiend	devil	LE	19	22000	mtf 162
+Demilich (in lair)	Tiny	Undead		NE	20	24500	mm 48
+Ancient Brass Dragon	Gargantuan	Dragon		CG	20	25000	mm 104
+Ancient White Dragon	Gargantuan	Dragon		CE	20	25000	mm 100
+Drow Matron Mother	Medium	Humanoid	elf	NE	20	25000	mtf 186
+Leviathan	Gargantuan	Elemental		N	20	25000	mtf 198
+Nightwalker	Huge	Undead		CE	20	25000	mtf 216
+Pit Fiend	Large	Fiend	devil	LE	20	25000	mm 77
+Ancient Black Dragon	Gargantuan	Dragon		CE	21	33000	mm 87
+Ancient Copper Dragon	Gargantuan	Dragon		CG	21	33000	mm 110
+Astral Dreadnought	Gargantuan	Monstrosity	titan	Unaligned	21	33000	mtf 117
+Lich	Medium	Undead		Any evil	21	33000	mm 202
+Molydeus	Huge	Fiend	demon	CE	21	33000	mtf 134
+Solar	Large	Celestial		LG	21	33000	mm 18
+Ancient Bronze Dragon	Gargantuan	Dragon		LG	22	41000	mm 107
+Ancient Green Dragon	Gargantuan	Dragon		LE	22	41000	mm 93
+Lich (in lair)	Medium	Undead		Any evil	22	41000	mm 202
+Mind Flayer Lich	Medium	Undead		Any evil	22	41000	vgm 172
+Zaratan	Gargantuan	Elemental		N	22	41000	mtf 201
+Ancient Blue Dragon	Gargantuan	Dragon		LE	23	50000	mm 90
+Ancient Silver Dragon	Gargantuan	Dragon		LG	23	50000	mm 116
+Elder Tempest	Gargantuan	Elemental		N	23	50000	mtf 200
+Empyrean	Huge	Celestial	titan	CG or NE	23	50000	mm 130
+Kraken	Gargantuan	Monstrosity	titan	CE	23	50000	mm 197
+Ancient Gold Dragon	Gargantuan	Dragon		LG	24	62000	mm 113
+Ancient Red Dragon	Gargantuan	Dragon		CE	24	62000	mm 97
+Marut	Large	Construct	inevitable	LN	25	75000	mtf 213
+Tarrasque	Gargantuan	Monstrosity	titan	Unaligned	30	155000	mm 286

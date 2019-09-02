@@ -26,7 +26,7 @@ switch (args[0]) {
         }
     case 'ability':
         {
-            var text = fs.readFileSync(__dirname + '/tables/ability.csv', 'utf8');
+            var text = fs.readFileSync(__dirname + '/tables/abilities.csv', 'utf8');
             let rows = text.split("\n");
             console.log(rows[r(rows.length) - 1] + '.');
             break;
@@ -39,7 +39,7 @@ switch (args[0]) {
         }
     case 'building':
         {
-            var text = fs.readFileSync(__dirname + '/tables/building.csv', 'utf8');
+            var text = fs.readFileSync(__dirname + '/tables/buildings.csv', 'utf8');
             let rows = text.split("\r\n");
             console.log('You find a ' + rows[r(rows.length) - 1] + '.');
             break;
@@ -87,6 +87,7 @@ switch (args[0]) {
             loot.exec(args);
             break;
         }
+    case 'shop':
     case 'merchant':
         {
             const merchant = require('./merchant');
@@ -115,12 +116,6 @@ switch (args[0]) {
         {
             const room = require('./room');
             room.exec(args);
-            break;
-        }
-    case 'shop':
-        {
-            console.log('https://www.reddit.com/r/BehindTheTables/comments/4psde0/shops/');
-            // Determine Stuff
             break;
         }
     case 'skirmish':

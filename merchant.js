@@ -5,6 +5,6 @@ module.exports = {
 
     exec: function (args) {
         
-        console.log('Merchant!');
+        console.log('https://www.reddit.com/r/BehindTheTables/comments/4psde0/shops/');
     }
 };
