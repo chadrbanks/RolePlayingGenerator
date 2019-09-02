@@ -11,7 +11,7 @@ Add this following alias to my bash or zsh config.
 Once you have the index.js file mapped to rpg, you can run rpg commands like the following.
 
 ```bash
-// This command will generate a random creature recomendation.
+# This command will generate a random creature recomendation.
 rpg creature
 ```
 >rpg gem
