@@ -39,6 +39,7 @@ switch (args[0]) {
         }
     case 'building':
         {
+            // This is the odd one.
             var text = fs.readFileSync(__dirname + '/tables/buildings.csv', 'utf8');
             let rows = text.split("\r\n");
             console.log('You find a ' + rows[r(rows.length) - 1] + '.');
