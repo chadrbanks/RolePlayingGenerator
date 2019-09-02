@@ -1,5 +1,5 @@
 # RolePlayingGenerator
-RPG is used to generate content for table top role playing games.
+RolePlayingGenerator is used to generate content for table top role playing games.
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
