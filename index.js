@@ -50,6 +50,12 @@ switch (args[0]) {
             coins.exec(args);
             break;
         }
+    case 'creature':
+        {
+            const creature = require('./creature');
+            creature.exec(args);
+            break;
+        }
     case 'crit':
         {
             const crit = require('./crit');
@@ -97,6 +103,12 @@ switch (args[0]) {
         {
             const org = require('./org');
             org.exec(args);
+            break;
+        }
+    case 'quest':
+        {
+            const quest = require('./quest');
+            quest.exec(args);
             break;
         }
     case 'room':

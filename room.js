@@ -86,8 +86,8 @@ module.exports = {
         let content = r(100);
         if (content <= 25) // 25%
         {
-            console.log("You encounter an NPC.");
-            console.log('You can try `rpg npc` for ideas.');
+            console.log("You encounter a creature.");
+            console.log('You can try `rpg creature` for ideas.');
         }
         else if (content <= 45) // 20%
         {
@@ -97,6 +97,7 @@ module.exports = {
         else if (content <= 60) // 15%
         {
             console.log("You encounter a trap.");
+            console.log('You can try `rpg trap` for ideas.');
         }
         else if (content <= 70) // 10%
         {
@@ -105,10 +106,12 @@ module.exports = {
         else if (content <= 80) // 10%
         {
             console.log("You encounter a merchant.");
+            console.log('You can try `rpg merchant` for ideas.');
         }
         else if (content <= 85) // 5%
         {
             console.log("You encounter an organization.");
+            console.log('You can try `rpg org` for ideas.');
         }
         else if (content <= 90) // 5%
         {
@@ -117,14 +120,17 @@ module.exports = {
         else if (content <= 95) // 5%
         {
             console.log("You encounter a quest related event.");
+            console.log('You can try `rpg quest` for ideas.');
         }
         else if (content <= 99) // 4%
         {
             console.log("You encounter some loot.");
+            console.log('You can try `rpg loot` for ideas.');
         }
         else // 1%
         {
             console.log("You encounter a boss.");
+            console.log('You can try `rpg boss` for ideas.');
         }
     }
 };
