@@ -15,13 +15,30 @@ switch (args[0]) {
     case '--README':
     case '--readme':
         {
-            var text = fs.readFileSync('README.md', 'utf8');
-            console.log(text);
+            //var text = fs.readFileSync('README.md', 'utf8');
+            //console.log(text);
+            console.log( 'Go to this link below for detailed examples on how to use these commands.' );
+            console.log( 'https://github.com/chadrbanks/RolePlayingGenerator' );
+            console.log( '' );
+            console.log( 'You can also try these commands:' );
+            console.log( '  rpg art' );
+            console.log( '  rpg boss' );
+            console.log( '  rpg building' );
+            console.log( '  rpg coins' );
+            console.log( '  rpg creature' );
+            console.log( '  rpg crit' );
+            console.log( '  rpg fumble' );
+            console.log( '  rpg gems' );
+            console.log( '  rpg loot' );
+            console.log( '  rpg roll' );
+            console.log( '  rpg room' );
+            console.log( '  rpg skirmish' );
+            console.log( '  rpg trap' );
             break;
         }
     case '--version':
         {
-            console.log("RolePlayingGenerator v0.1.2");
+            console.log("RolePlayingGenerator v0.1.3");
             break;
         }
     case 'ability':
