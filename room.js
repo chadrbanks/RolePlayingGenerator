@@ -87,7 +87,7 @@ module.exports = {
         if (content <= 25) // 25%
         {
             console.log("You encounter a creature.");
-            console.log('You can try `rpg creature` for ideas.');
+            console.log('You can try `rpg creature --min=1 --max=4` for ideas.');
         }
         else if (content <= 45) // 20%
         {

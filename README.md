@@ -17,8 +17,13 @@ rpg --readme
 ```
 
 ```bash
-# This command will generate a random creature recomendation.
-rpg creature
+# This command will generate random creature recomendations.
+rpg creature                                # A random creature.
+rpg creature --count=5                      # 5 random creatures.
+rpg creature --challenge=4                  # A random creature with a challenge rating of 4.
+rpg creature --challenge=5 --count=5        # 5 random creatures with a challenge rating of 5.
+rpg creature --min=20 --max=25              # A random creature with a challenge rating between 20 and 25.
+rpg creature --count=10 --min=10 --max=12   # Generate 10 random creatures with a challenge rating between 10 and 12.
 ```
 
 ```bash
