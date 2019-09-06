@@ -30,7 +30,7 @@ module.exports = {
                 console.log(rows[num_or_len]);
                 found = true;
             }
-            else if (args[x].substring(0, 7) === '--pierce' || args[x].substring(0, 10) === '--piercing') {
+            else if (args[x].substring(0, 8) === '--pierce' || args[x].substring(0, 10) === '--piercing') {
                 var text = fs.readFileSync(__dirname + '/tables/crits/crit_pierce.csv', 'utf8');
                 let rows = text.split("\n");
                 if (!num_or_len) { num_or_len = r(rows.length) - 1; }
@@ -58,7 +58,7 @@ module.exports = {
 
         // Error
         if (!found) {
-            console.log('Critical type not specified, please add --slash, --blunt, --pirce, --ranged, or --spell to specify.');
+            console.log('Critical type not specified, please add --slash, --blunt, --pierce, --ranged, or --spell to specify.');
         }
     },
 

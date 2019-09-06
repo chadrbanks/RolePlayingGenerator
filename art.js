@@ -22,7 +22,7 @@ module.exports = {
             console.log( rows[ r(rows.length) - 1 ] );
         }
         else {
-            console.log('No art table exists for this value, try 10gp. `rpg art --val=25');
+            console.log('No art table exists for this value, try 25gp. `rpg art --val=25');
         }
     }
 };
