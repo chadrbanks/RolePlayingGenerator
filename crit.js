@@ -71,10 +71,10 @@ module.exports = {
         // Arg Processing
         for (var x in args) {
             if (args[x].substring(0, 7) === '--roll=') {
-                num_or_len = args[x].substring(7) - 1;
+                num_or_len = Number(args[x].substring(7)) - 1;
             }
             else if (args[x].substring(0, 7) === '--melee') {
-                var text = fs.readFileSync('tables/crits/fumble_melee.csv', 'utf8');
+                var text = fs.readFileSync(__dirname + '/tables/crits/fumble_melee.csv', 'utf8');
                 let rows = text.split("\n");
                 if (!num_or_len) { num_or_len = r(rows.length) - 1; }
 

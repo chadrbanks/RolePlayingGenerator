@@ -88,9 +88,10 @@ rpg room
 ```bash
 # Crit Command
 # Generate a random crit result for a character who rolled a 20 on their spell attack role.
+# This command allows an optional roll argument before the type argument to force result.
 # This command requires a --type argument.
 # Crit supports blunt, slash, pierce, spell, and range types.
-rpg crit --spell
+rpg crit --roll=47 --spell
 # Example output:
 #                   Backpack is hit, 1d4 items are damaged.
 #                   Broken nose, stunned for 1 round.
@@ -103,9 +104,10 @@ rpg crit --spell
 ```bash
 # Fumble Command
 # Generate a random fumble result for a character who rolled a 1 on their melee attack role.
+# This command allows an optional roll argument before the type argument to force result.
 # This command requires a --type argument.
 # Fumble supports melee, spell, and range types.
-rpg fumble --melee
+rpg fumble --roll=47 --melee
 # Example output:
 #                   Trip, save DEX DC12 or fall prone.
 #                   Twisted ankle, save CON DC20 or 1/2 movement until long rest.
