@@ -17,23 +17,23 @@ switch (args[0]) {
         {
             //var text = fs.readFileSync('README.md', 'utf8');
             //console.log(text);
-            console.log( 'Go to this link below for detailed examples on how to use these commands.' );
-            console.log( 'https://github.com/chadrbanks/RolePlayingGenerator' );
-            console.log( '' );
-            console.log( 'You can also try these commands:' );
-            console.log( '  rpg art' );
-            console.log( '  rpg boss' );
-            console.log( '  rpg building' );
-            console.log( '  rpg coins' );
-            console.log( '  rpg creature' );
-            console.log( '  rpg crit' );
-            console.log( '  rpg fumble' );
-            console.log( '  rpg gems' );
-            console.log( '  rpg loot' );
-            console.log( '  rpg roll' );
-            console.log( '  rpg room' );
-            console.log( '  rpg skirmish' );
-            console.log( '  rpg trap' );
+            console.log('Go to this link below for detailed examples on how to use these commands.');
+            console.log('https://github.com/chadrbanks/RolePlayingGenerator');
+            console.log('');
+            console.log('You can also try these commands:');
+            console.log('  rpg art');
+            console.log('  rpg boss');
+            console.log('  rpg building');
+            console.log('  rpg coins');
+            console.log('  rpg creature');
+            console.log('  rpg crit');
+            console.log('  rpg fumble');
+            console.log('  rpg gems');
+            console.log('  rpg loot');
+            console.log('  rpg roll');
+            console.log('  rpg room');
+            console.log('  rpg skirmish');
+            console.log('  rpg trap');
             break;
         }
     case '--version':
@@ -56,9 +56,9 @@ switch (args[0]) {
         }
     case 'boss':
         {
-            console.log( 'Generating boss....' );
+            console.log('Generating boss....');
             const creature = require('./creature');
-            creature.exec( ['--min=25','--max=50'] );
+            creature.exec(['--min=25', '--max=50']);
             break;
         }
     case 'building':
@@ -141,6 +141,14 @@ switch (args[0]) {
         {
             const room = require('./room');
             room.exec(args);
+            break;
+        }
+    case 'c4':
+    case 'seef':
+    case 'seefouria':
+        {
+            const seefouria = require('./seefouria');
+            seefouria.exec(args);
             break;
         }
     case 'skirmish':

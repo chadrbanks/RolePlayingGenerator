@@ -5,10 +5,18 @@ module.exports = {
 
     exec: function (args) {
         
-        let roll = r(6);
+        let roll = 1;//r(6);
 
         if( roll == 1 ){
-            console.log( 'Find item.' );
+
+            let num = r(4);
+            let dice = r(5) * 2 + 2;
+
+            var text = fs.readFileSync( __dirname + '/tables/quest_items.csv', 'utf8' );
+            let rows = text.split("\n");
+            let item = rows[ r(rows.length) - 1 ];
+
+            console.log( 'Bring me ' + num + 'd' + dice + ' ' + item + '.' );
         }
         else if( roll == 2 ){
             console.log( 'Recover stolen item.' );
