@@ -167,25 +167,8 @@ switch (args[0]) {
     case 'dice':
     case 'roll':
         {
-            let max = 20;
-            for (var x in args) {
-                if (args[x] !== 'r') {
-                    let parts = args[x].split('d');
-                    //let adds = args[x].split('+');
-                    //let subs = args[x].split('-');
-                    max = parts[1];
-
-                    for (let c = 0; c < parts[0]; c++) {
-                        let roll = r(max);
-                        console.log('[' + max + ']: ' + roll);
-                    }
-                }
-            }
-
-            if (args.length == 1) {
-                console.log('[' + 20 + ']: ' + r(20));
-            }
-
+            const rolly = require('./roll');
+            rolly.exec(args);
             break;
         }
     default:

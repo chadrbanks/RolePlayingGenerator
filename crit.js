@@ -11,47 +11,45 @@ module.exports = {
 
         // Arg Processing
         for (var x in args) {
-            if (args[x].substring(0, 7) === '--roll=') {
+            if ( args[x].substring(0, 7) === '--roll=' ) {
                 num_or_len = args[x].substring(7) - 1;
+
+                if(found)
+                {
+                    console.log( 'You need to pass the roll first, or it will not be used!' );
+                }
+            }
+            else if( args[x].substring(0, 6) === '--val=' ){
+                num_or_len = args[x].substring(6) - 1;
+
+                if(found)
+                {
+                    console.log( 'You need to pass the value first, or it will not be used!' );
+                }
             }
             else if (args[x].substring(0, 7) === '--slash' || args[x].substring(0, 10) === '--slashing') {
-                var text = fs.readFileSync(__dirname + '/tables/crits/crit_slashing.csv', 'utf8');
-                let rows = text.split("\n");
-                if (!num_or_len) { num_or_len = r(rows.length) - 1; }
-
-                console.log(rows[num_or_len]);
+                
+                this.do_output( __dirname + '/tables/crits/crit_slashing.csv', num_or_len );
                 found = true;
             }
             else if (args[x].substring(0, 7) === '--blunt') {
-                var text = fs.readFileSync(__dirname + '/tables/crits/crit_blunt.csv', 'utf8');
-                let rows = text.split("\n");
-                if (!num_or_len) { num_or_len = r(rows.length) - 1; }
-
-                console.log(rows[num_or_len]);
+                
+                this.do_output( __dirname + '/tables/crits/crit_blunt.csv', num_or_len );
                 found = true;
             }
             else if (args[x].substring(0, 8) === '--pierce' || args[x].substring(0, 10) === '--piercing') {
-                var text = fs.readFileSync(__dirname + '/tables/crits/crit_pierce.csv', 'utf8');
-                let rows = text.split("\n");
-                if (!num_or_len) { num_or_len = r(rows.length) - 1; }
-
-                console.log(rows[num_or_len]);
+                
+                this.do_output( __dirname + '/tables/crits/crit_pierce.csv', num_or_len );
                 found = true;
             }
             else if (args[x].substring(0, 7) === '--spell') {
-                var text = fs.readFileSync(__dirname + '/tables/crits/crit_spell.csv', 'utf8');
-                let rows = text.split("\n");
-                if (!num_or_len) { num_or_len = r(rows.length) - 1; }
-
-                console.log(rows[num_or_len]);
+                
+                this.do_output( __dirname + '/tables/crits/crit_spell.csv', num_or_len );
                 found = true;
             }
             else if (args[x].substring(0, 7) === '--range' || args[x].substring(0, 8) === '--ranged') {
-                var text = fs.readFileSync(__dirname + '/tables/crits/crit_range.csv', 'utf8');
-                let rows = text.split("\n");
-                if (!num_or_len) { num_or_len = r(rows.length) - 1; }
-
-                console.log(rows[num_or_len]);
+                
+                this.do_output( __dirname + '/tables/crits/crit_range.csv', num_or_len );
                 found = true;
             }
         }
@@ -60,6 +58,20 @@ module.exports = {
         if (!found) {
             console.log('Critical type not specified, please add --slash, --blunt, --pierce, --ranged, or --spell to specify.');
         }
+    },
+
+    do_output: function( filepath, num_or_len )
+    {
+        var text = fs.readFileSync( filepath, 'utf8' );
+        let rows = text.split("\n");
+
+        let roll = r(rows.length);
+        if (!num_or_len) {
+            num_or_len = roll - 1;
+        }
+
+        console.log( '[100]: ' + num_or_len );
+        console.log( rows[num_or_len] );
     },
 
     fumble: function (args) {
@@ -74,27 +86,18 @@ module.exports = {
                 num_or_len = Number(args[x].substring(7)) - 1;
             }
             else if (args[x].substring(0, 7) === '--melee') {
-                var text = fs.readFileSync(__dirname + '/tables/crits/fumble_melee.csv', 'utf8');
-                let rows = text.split("\n");
-                if (!num_or_len) { num_or_len = r(rows.length) - 1; }
-
-                console.log(rows[num_or_len]);
+                
+                this.do_output( __dirname + '/tables/crits/fumble_melee.csv', num_or_len );
                 found = true;
             }
             else if (args[x].substring(0, 7) === '--spell') {
-                var text = fs.readFileSync(__dirname + '/tables/crits/fumble_spell.csv', 'utf8');
-                let rows = text.split("\n");
-                if (!num_or_len) { num_or_len = r(rows.length) - 1; }
-
-                console.log(rows[num_or_len]);
+                
+                this.do_output( __dirname + '/tables/crits/fumble_spell.csv', num_or_len );
                 found = true;
             }
             else if (args[x].substring(0, 7) === '--range' || args[x].substring(0, 8) === '--ranged') {
-                var text = fs.readFileSync(__dirname + '/tables/crits/fumble_range.csv', 'utf8');
-                let rows = text.split("\n");
-                if (!num_or_len) { num_or_len = r(rows.length) - 1; }
-
-                console.log(rows[num_or_len]);
+                
+                this.do_output( __dirname + '/tables/crits/fumble_range.csv', num_or_len );
                 found = true;
             }
         }
