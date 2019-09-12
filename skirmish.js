@@ -8,7 +8,6 @@ module.exports = {
         
         var text = fs.readFileSync( __dirname + '/tables/skirmish.csv', 'utf8' );
         let rows = text.split("\n");
-        //console.log( rows[ r(rows.length) - 1 ] + '.' );
         
 
         let dice1 = r(2) * 2 + 2;

@@ -1,0 +1,19 @@
+{
+  "name": "roleplayinggenerator",
+  "version": "0.2.0",
+  "description": "RPG is used to generate content for table top role playing games.",
+  "main": "index.js",
+  "bin": {
+    "rpg": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadrbanks/RolePlayingGenerator.git"
+  },
+  "author": "Chad R. Banks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chadrbanks/RolePlayingGenerator/issues"
+  },
+  "homepage": "https://github.com/chadrbanks/RolePlayingGenerator#readme"
+}

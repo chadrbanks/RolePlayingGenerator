@@ -7,11 +7,13 @@ Content such as Creatures, Critcal Fails/Hits, Loot, NPCs, Quests, Rooms, Skirmi
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
 
 # Setup
-Pull this repo, and then add this following alias to your bash or zsh config.
+Pull this repo, run `npm install -g` inside the root directory of the project, and you should be good to go.
+
+Alternatively, you may be able to add this following alias to your bash or zsh config.
 >alias rpg="node /path/to/repo/RolePlayingGenerator/index.js"
 
 # Usage
-Once you have the index.js file mapped to rpg, you can run rpg commands like the following.
+Once you have completed the setup above, you should be able run rpg commands like the following.
 
 ```bash
 # Help

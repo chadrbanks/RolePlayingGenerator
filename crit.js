@@ -12,7 +12,7 @@ module.exports = {
         // Arg Processing
         for (var x in args) {
             if ( args[x].substring(0, 7) === '--roll=' ) {
-                num_or_len = args[x].substring(7) - 1;
+                num_or_len = args[x].substring(7);
 
                 if(found)
                 {
@@ -20,7 +20,7 @@ module.exports = {
                 }
             }
             else if( args[x].substring(0, 6) === '--val=' ){
-                num_or_len = args[x].substring(6) - 1;
+                num_or_len = args[x].substring(6);
 
                 if(found)
                 {
@@ -82,8 +82,21 @@ module.exports = {
 
         // Arg Processing
         for (var x in args) {
-            if (args[x].substring(0, 7) === '--roll=') {
-                num_or_len = Number(args[x].substring(7)) - 1;
+            if ( args[x].substring(0, 7) === '--roll=' ) {
+                num_or_len = args[x].substring(7);
+
+                if(found)
+                {
+                    console.log( 'You need to pass the roll first, or it will not be used!' );
+                }
+            }
+            else if( args[x].substring(0, 6) === '--val=' ){
+                num_or_len = args[x].substring(6);
+
+                if(found)
+                {
+                    console.log( 'You need to pass the value first, or it will not be used!' );
+                }
             }
             else if (args[x].substring(0, 7) === '--melee') {
                 

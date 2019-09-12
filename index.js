@@ -1,7 +1,8 @@
-// RolePlayingGenerator
+#!/usr/bin/env node
 
-global.r = function (max) {
-    return Math.floor(Math.random() * Math.floor(max)) + 1
+global.r = function(max)
+{
+    return Math.floor(Math.random() * Math.floor(max)) + 1;
 };
 
 console.log('');
@@ -38,7 +39,7 @@ switch (args[0]) {
         }
     case '--version':
         {
-            console.log("RolePlayingGenerator v0.1.3");
+            console.log("RolePlayingGenerator v0.2.0");
             break;
         }
     case 'ability':
@@ -167,8 +168,8 @@ switch (args[0]) {
     case 'dice':
     case 'roll':
         {
-            const rolly = require('./roll');
-            rolly.exec(args);
+            const roll = require('./roll');
+            roll.exec(args);
             break;
         }
     default:
