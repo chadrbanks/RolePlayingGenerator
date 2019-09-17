@@ -2,6 +2,8 @@
 RolePlayingGenerator can be used to generate content for table top role playing games.
 Content such as Creatures, Critcal Fails/Hits, Loot, NPCs, Quests, Rooms, Skirmishes, and Traps.
 
+![Platform](https://img.shields.io/badge/platform-nodejs-lightgrey.svg?style=flat)
+
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
