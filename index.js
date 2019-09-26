@@ -102,11 +102,17 @@ switch (args[0]) {
             break;
         }
     case 'guild':
-        {
-            const guild = require('./guild');
-            guild.exec(args);
-            break;
-        }
+    {
+        const guild = require('./guild');
+        guild.exec(args);
+        break;
+    }
+    case 'item':
+    {
+        const item = require('./item');
+        item.exec(args);
+        break;
+    }
     case 'loot':
         {
             const loot = require('./loot');

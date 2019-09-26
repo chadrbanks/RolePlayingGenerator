@@ -40,6 +40,13 @@ if( isset( $_POST['cmd'] ) )
         <br>
 
         <form method="post" >
+            <input type="submit" value="Gen Item" >
+            <input type="hidden" name="cmd" value="item" >
+        </form>
+
+        <br>
+
+        <form method="post" >
             <input type="submit" value="Gen Skirmish" >
             <input type="hidden" name="cmd" value="skirmish" >
         </form>
