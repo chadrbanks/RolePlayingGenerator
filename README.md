@@ -46,10 +46,13 @@ rpg creature --count=10 --min=10 --max=12   # Generate random 10 creatures with 
 # A list of random roll commands, to roll dice in different situations.
 # Multiple dice are supported at once
 # r and dice are an alias of roll
-rpg roll 2d20       # Advantage or disadvantage
-rpg roll 1d20 1d8   # Attack and damage rolls
-rpg roll 1d100      # Percentile
-rpg r 4d6           # New stat roll
+rpg roll 1d20 1d8       # Attack and damage roll example
+rpg r 1d100             # Percentile
+rpg dice 2d20           # Advantage or disadvantage
+rpg r 2d20 --tdl        # Advantage roll that will drop the lowest
+rpg roll 2d20 --tdh     # Disadvantage roll that will drop the highest
+rpg dice 10d6 --total   # Roll 10d6 and show a total
+rpg roll 4d6 --tdl      # New stat roll dropping the lowest
 ```
 
 ```bash
