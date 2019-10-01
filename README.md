@@ -144,6 +144,11 @@ rpg gem --val=1000
 
 ```bash
 # Trap Command
-# Random trap, more than likely OP.
-rpg trap
+# Generates a random trap
+rpg trap             # Random trap, more than likely OP.
+rpg trap --top=50    # Return a trap in the top 50 results
+rpg trap --tier=1    # Return a trap in tier one (apprentance)
+rpg trap --tier=2    # Return a trap in tier two (heroic)
+rpg trap --tier=3    # Return a trap in tier three (paragon)
+rpg trap --tier=4    # Return a trap in tier four (legendary)
 ```
