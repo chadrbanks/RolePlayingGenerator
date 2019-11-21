@@ -29,8 +29,7 @@ rpg --readme
 # Generate random creature recomendations.
 rpg creature                                # A random creature.
 rpg creature --count=5                      # 5 random creatures.
-rpg creature --challenge=4                  # A random creature with a challenge rating of 4.
-rpg creature --challenge=5 --count=5        # 5 random creatures with a challenge rating of 5.
+rpg creature --clcreature --challenge=5 --count=5        # 5 random creatures with a challenge rating of 5.
 rpg creature --min=20 --max=25              # A random creature with a CR between 20 and 25.
 rpg creature --count=10 --min=10 --max=12   # Generate random 10 creatures with CRs between 10 and 12.
 # Example outputs:
@@ -39,6 +38,14 @@ rpg creature --count=10 --min=10 --max=12   # Generate random 10 creatures with 
 #                   Amnizu  Medium  Fiend   devil   LE      18      20000   mtf 164.
 #                   Gazer   Tiny    Aberration              NE      1/2     100     vgm 126.
 #                   Axe Beak        Large   Beast           Unaligned       1/4     50      mm 317.
+```
+
+```bash
+# Encounter Command
+# Generate random encounter recomendations.
+rpg encounter
+rpg encounter --where=road
+rpg encounter --where=forest
 ```
 
 ```bash

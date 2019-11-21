@@ -59,7 +59,7 @@ switch (args[0]) {
         {
             console.log('Generating boss....');
             const creature = require('./creature');
-            creature.exec(['--min=25', '--max=50']);
+            creature.exec(['--min=20', '--max=50']);
             break;
         }
     case 'building':
@@ -86,6 +86,12 @@ switch (args[0]) {
         {
             const crit = require('./crit');
             crit.crit(args);
+            break;
+        }
+    case 'encounter':
+        {
+            const encounter = require('./encounter');
+            encounter.gen(args);
             break;
         }
     case 'fumble':

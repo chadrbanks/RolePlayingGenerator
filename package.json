@@ -1,6 +1,6 @@
 {
   "name": "roleplayinggenerator",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "RPG is used to generate content for table top role playing games.",
   "main": "index.js",
   "bin": {
