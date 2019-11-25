@@ -22,19 +22,21 @@ switch (args[0]) {
             console.log('https://github.com/chadrbanks/RolePlayingGenerator');
             console.log('');
             console.log('You can also try these commands:');
-            console.log('  rpg art');
-            console.log('  rpg boss');
+            console.log('  rpg art [--val=10]');
+            console.log('  rpg boss (alias for rpg creature)');
             console.log('  rpg building');
-            console.log('  rpg coins');
-            console.log('  rpg creature');
-            console.log('  rpg crit');
-            console.log('  rpg fumble');
-            console.log('  rpg gems');
-            console.log('  rpg loot');
+            console.log('  rpg coins [--lvl=1]');
+            console.log('  rpg creature [--headers] [--count=1] [--challenge=] [--min=] [--max=] [--top=]');
+            console.log('  rpg crit [--val] [type]');
+            console.log('  rpg fumble [--val] [type]');
+            console.log('  rpg gems [ [--val=10]');
+            console.log('  rpg loot [--lvl=1]');
+            console.log('  rpg npc (just gives a link)');
+            console.log('  rpg quest');
             console.log('  rpg roll');
             console.log('  rpg room');
             console.log('  rpg skirmish');
-            console.log('  rpg trap');
+            console.log('  rpg trap [--top=] [--tier=]');
             break;
         }
     case '--version':
@@ -64,9 +66,8 @@ switch (args[0]) {
         }
     case 'building':
         {
-            // This is the odd one.
             var text = fs.readFileSync(__dirname + '/tables/buildings.csv', 'utf8');
-            let rows = text.split("\r\n");
+            let rows = text.split("\n");
             console.log('You find a ' + rows[r(rows.length) - 1] + '.');
             break;
         }
