@@ -38,6 +38,10 @@ module.exports = {
             console.log( 'Both min and max must be set!' );
             return 1;
         }
+        
+        if (chal != -1) {
+            console.log('Finding creature with a challenge rating of ' + chal + '.');
+        }
 
         if (headers) {
             console.log('Name	Size	Type	Tags	Alignment	Challenge	XP	Source');
@@ -53,8 +57,7 @@ module.exports = {
         while (count > c) {
             if (chal != -1) {
                 let x = 0;
-
-                console.log( 'Finding creature with a challenge rating of ' + chal + '.' );
+                
                 while (x != chal) {
                     creature = rows[r(top) - 1];
                     let sections = creature.split("\t");
