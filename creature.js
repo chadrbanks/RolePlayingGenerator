@@ -40,7 +40,10 @@ module.exports = {
         }
         
         if (chal != -1) {
-            console.log('Finding creature with a challenge rating of ' + chal + '.');
+            console.log('Finding creature with a challenge rating of ' + chal + '....');
+        }
+        else if (max != 0) {
+            console.log('Finding creature with a challenge rating bettween ' + min + ' and ' + max + '....');
         }
 
         if (headers) {
@@ -73,8 +76,7 @@ module.exports = {
             else if( max != 0 )
             {
                 let found = false;
-
-                console.log( 'Finding creature with a challenge rating bettween ' + min + ' and ' + max + '.' );
+                
                 while (!found) {
                     creature = rows[r(top) - 1];
                     let sections = creature.split("\t");
