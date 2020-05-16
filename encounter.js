@@ -1,4 +1,5 @@
 
+const fs = require('fs');
 
 module.exports = {
 
@@ -19,8 +20,38 @@ module.exports = {
             options.where = 'road';
         }
 
-        
-        console.log( "Generating random encounter on " + options.where + "..." );
+        let path;
 
+        if(options.where === 'gosuroad')
+        {
+            console.log('People pass by.');
+        }
+        else if(options.where === 'gosuforest')
+        {
+            console.log('Wild animal!');
+        }
+        else if(options.where === 'orcroad')
+        {
+            path = __dirname + '/tables/encounters/orc_road.csv';
+        }
+        else if(options.where === 'orcforest')
+        {
+            path = __dirname + '/tables/encounters/orc_forest.csv';
+        }
+        else if(options.where === 'orccamp')
+        {
+            path = __dirname + '/tables/encounters/orc_forest.csv';
+        }
+
+        if (fs.existsSync(path)) {
+            var text = fs.readFileSync(path, 'utf8');
+            let rows = text.split("\n");
+            let roll = r(rows.length) - 1;
+            console.log( `[${rows.length}] ${roll}` );
+            console.log(rows[ roll ]);
+        }
+        else {
+            console.log("Error finding table for this area. Did you set a --where=?");
+        }
     }
 };
